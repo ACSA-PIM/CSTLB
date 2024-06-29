@@ -1,0 +1,19 @@
+l1_*
+l2_*
+nuca_*
+ptw_latency_heatmap*
+sim.memorytracker
+sim.stats.sqlite3
+sim.out
+/* sim.cfg */
+sim.info
+/* sim.stdout */
+/* sim.stats */
+std.out
+.sift_done
+slurm*
+out
+*.csv
+search_significant_time.sh
+sim.scripts.py
+app_0.log

@@ -1,0 +1,1638 @@
+[SNIPER] (0) Using trace file /root/codes/Victima/traces/bc.sift
+[SNIPER] Start here
+True
+[SNIPER] Running ['bash', '-c', '/root/codes/Victima/sniper/lib/sniper -c /root/codes/Victima/sniper/config/base.cfg --general/total_cores=1 --general/output_dir=/root/codes/HS-TLB/CPU-HBM-potm-HS-virtualized-256K/8core/bc -g --traceinput/mirror_output=true --config=/root/codes/Victima/sniper/config/nehalem.cfg --config=/root/codes/Victima/sniper/config/utopia_motivation_baseline.cfg --config=/root/codes/Victima/sniper/config/virtual_memory_configs/common_translation.cfg --config=/root/codes/Victima/sniper/config/UniNDP/configs/UniNDP_baseline_CPU_hbm.cfg --config=/root/codes/Victima/sniper/config/UniNDP/CPU-HBM/baseline_CPU_8core_potm_HS_256K.cfg --perf_model/ptw/enabled=false --perf_model/ptw/virtualized=true -g --traceinput/stop_with_first_app=true -g --traceinput/restart_apps=false -g --hooks/numscripts=1 -g --hooks/script0name=/root/codes/HS-TLB/CPU-HBM-potm-HS-virtualized-256K/8core/bc/sim.scripts.py -g --hooks/script0args= -g --traceinput/enabled=true -g --traceinput/emulate_syscalls=false -g --traceinput/num_apps=1 -g --traceinput/thread_0=/root/codes/Victima/traces/bc.sift']
+<subprocess.Popen object at 0x14dced5dea90>
+Starting simLet's load config
+config_path
+Allocating Simulator
+Hello from simulator's constructor
+Hello from simulator
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 0
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 1
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 2
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 3
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 4
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 5
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 6
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Supporting 2page sizes: 12, 21,
+Creating pwc_L4 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L3 cache with 4 sets, 4-way associative, 8B blocksize
+Creating pwc_L2 cache with 8 sets, 4-way associative, 8B blocksize
+0
+0
+60
+100
+PWC1
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Registered special metric: ptw_latency_heatmap
+Creating nested_tlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+[VM] POTM with HIGH associativity is enabled
+Creating potm_tlb_cache cache with 32768 sets, 8-way associative, 4096B blocksize
+[VM] POTM: Setting up POTM data structure as L3 TLB with 262144 entries
+Creating stlb_cache cache with 128 sets, 12-way associative, 4096B blocksize
+Creating itlb_cache cache with 16 sets, 8-way associative, 4096B blocksize
+Creating dtlb_cache cache with 16 sets, 4-way associative, 4096B blocksize
+Registered special metric: L2_TLB_miss_per_page
+Registering cache time series
+Registered special metric: cache_timeseries
+Creating nuca-cache cache with 16384 sets, 16-way associative, 64B blocksize
+Attaching Nuca to PTW
+Core : 7
+Directory type : limited_no_broadcast
+Total Entries : 33554432
+Associativity : 16
+Cache Block Size : 64
+Max hw sharers : 64
+Max Num Sharers : 8
+Initializing cache L 2
+Creating L1-I cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 3
+Creating L1-D cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 4
+Creating L2 cache with 64 sets, 8-way associative, 64B blocksize
+Initializing cache L 5
+Creating L3 cache with 512 sets, 16-way associative, 64B blocksize
+Executing Python script /root/codes/HS-TLB/CPU-HBM-potm-HS-virtualized-256K/8core/bc/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 4000000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[STOPBYICOUNT] Periodic at 100012 delta = 100012 elapsed time = 00:00:01
+[STOPBYICOUNT] Periodic at 200009 delta = 99997 elapsed time = 00:00:02
+[STOPBYICOUNT] Periodic at 300006 delta = 99997 elapsed time = 00:00:03
+[STOPBYICOUNT] Periodic at 400003 delta = 99997 elapsed time = 00:00:04
+[STOPBYICOUNT] Periodic at 500003 delta = 100000 elapsed time = 00:00:06
+[STOPBYICOUNT] Periodic at 600016 delta = 100013 elapsed time = 00:00:07
+[STOPBYICOUNT] Periodic at 700013 delta = 99997 elapsed time = 00:00:09
+[STOPBYICOUNT] Periodic at 800010 delta = 99997 elapsed time = 00:00:10
+[STOPBYICOUNT] Periodic at 900007 delta = 99997 elapsed time = 00:00:12
+[STOPBYICOUNT] Periodic at 1000004 delta = 99997 elapsed time = 00:00:14
+[STOPBYICOUNT] Periodic at 1100001 delta = 99997 elapsed time = 00:00:16
+[STOPBYICOUNT] Periodic at 1200001 delta = 100000 elapsed time = 00:00:17
+[STOPBYICOUNT] Periodic at 1300014 delta = 100013 elapsed time = 00:00:18
+[STOPBYICOUNT] Periodic at 1400011 delta = 99997 elapsed time = 00:00:20
+[STOPBYICOUNT] Periodic at 1500008 delta = 99997 elapsed time = 00:00:22
+[STOPBYICOUNT] Periodic at 1600005 delta = 99997 elapsed time = 00:00:23
+[STOPBYICOUNT] Periodic at 1700002 delta = 99997 elapsed time = 00:00:24
+[STOPBYICOUNT] Periodic at 1800002 delta = 100000 elapsed time = 00:00:25
+[STOPBYICOUNT] Periodic at 1900015 delta = 100013 elapsed time = 00:00:27
+[STOPBYICOUNT] Periodic at 2000012 delta = 99997 elapsed time = 00:00:28
+[STOPBYICOUNT] Periodic at 2100009 delta = 99997 elapsed time = 00:00:30
+[STOPBYICOUNT] Periodic at 2200006 delta = 99997 elapsed time = 00:00:32
+[STOPBYICOUNT] Periodic at 2300003 delta = 99997 elapsed time = 00:00:33
+[STOPBYICOUNT] Periodic at 2400003 delta = 100000 elapsed time = 00:00:35
+[STOPBYICOUNT] Periodic at 2500016 delta = 100013 elapsed time = 00:00:36
+[STOPBYICOUNT] Periodic at 2600013 delta = 99997 elapsed time = 00:00:37
+[STOPBYICOUNT] Periodic at 2700010 delta = 99997 elapsed time = 00:00:38
+[STOPBYICOUNT] Periodic at 2800007 delta = 99997 elapsed time = 00:00:39
+[STOPBYICOUNT] Periodic at 2900004 delta = 99997 elapsed time = 00:00:39
+[STOPBYICOUNT] Periodic at 3000001 delta = 99997 elapsed time = 00:00:40
+[STOPBYICOUNT] Periodic at 3100001 delta = 100000 elapsed time = 00:00:41
+[STOPBYICOUNT] Periodic at 3200014 delta = 100013 elapsed time = 00:00:41
+[STOPBYICOUNT] Periodic at 3300011 delta = 99997 elapsed time = 00:00:42
+[STOPBYICOUNT] Periodic at 3400008 delta = 99997 elapsed time = 00:00:43
+[STOPBYICOUNT] Periodic at 3500005 delta = 99997 elapsed time = 00:00:43
+[STOPBYICOUNT] Periodic at 3600002 delta = 99997 elapsed time = 00:00:44
+[STOPBYICOUNT] Periodic at 3700002 delta = 100000 elapsed time = 00:00:45
+[STOPBYICOUNT] Periodic at 3800015 delta = 100013 elapsed time = 00:00:45
+[STOPBYICOUNT] Periodic at 3900012 delta = 99997 elapsed time = 00:00:46
+[STOPBYICOUNT] Periodic at 4000009 delta = 99997 elapsed time = 00:00:47
+[STOPBYICOUNT] Periodic at 4100006 delta = 99997 elapsed time = 00:00:47
+[STOPBYICOUNT] Periodic at 4200003 delta = 99997 elapsed time = 00:00:48
+[STOPBYICOUNT] Periodic at 4300003 delta = 100000 elapsed time = 00:00:49
+[STOPBYICOUNT] Periodic at 4400016 delta = 100013 elapsed time = 00:00:49
+[STOPBYICOUNT] Periodic at 4500013 delta = 99997 elapsed time = 00:00:50
+[STOPBYICOUNT] Periodic at 4600010 delta = 99997 elapsed time = 00:00:51
+[STOPBYICOUNT] Periodic at 4700007 delta = 99997 elapsed time = 00:00:52
+[STOPBYICOUNT] Periodic at 4800004 delta = 99997 elapsed time = 00:00:52
+[STOPBYICOUNT] Periodic at 4900001 delta = 99997 elapsed time = 00:00:53
+[STOPBYICOUNT] Periodic at 5000001 delta = 100000 elapsed time = 00:00:54
+[STOPBYICOUNT] Periodic at 5100014 delta = 100013 elapsed time = 00:00:54
+[STOPBYICOUNT] Periodic at 5200011 delta = 99997 elapsed time = 00:00:55
+[STOPBYICOUNT] Periodic at 5300008 delta = 99997 elapsed time = 00:00:56
+[STOPBYICOUNT] Periodic at 5400005 delta = 99997 elapsed time = 00:00:56
+[STOPBYICOUNT] Periodic at 5500002 delta = 99997 elapsed time = 00:00:57
+[STOPBYICOUNT] Periodic at 5600002 delta = 100000 elapsed time = 00:00:58
+[STOPBYICOUNT] Periodic at 5700015 delta = 100013 elapsed time = 00:00:59
+[STOPBYICOUNT] Periodic at 5800012 delta = 99997 elapsed time = 00:00:59
+[STOPBYICOUNT] Periodic at 5900009 delta = 99997 elapsed time = 00:01:00
+[STOPBYICOUNT] Periodic at 6000006 delta = 99997 elapsed time = 00:01:01
+[STOPBYICOUNT] Periodic at 6100003 delta = 99997 elapsed time = 00:01:01
+[STOPBYICOUNT] Periodic at 6200003 delta = 100000 elapsed time = 00:01:02
+[STOPBYICOUNT] Periodic at 6300016 delta = 100013 elapsed time = 00:01:04
+[STOPBYICOUNT] Periodic at 6400013 delta = 99997 elapsed time = 00:01:06
+[STOPBYICOUNT] Periodic at 6500010 delta = 99997 elapsed time = 00:01:07
+[STOPBYICOUNT] Periodic at 6600007 delta = 99997 elapsed time = 00:01:09
+[STOPBYICOUNT] Periodic at 6700004 delta = 99997 elapsed time = 00:01:11
+[STOPBYICOUNT] Periodic at 6800001 delta = 99997 elapsed time = 00:01:12
+[STOPBYICOUNT] Periodic at 6900001 delta = 100000 elapsed time = 00:01:13
+[STOPBYICOUNT] Periodic at 7000014 delta = 100013 elapsed time = 00:01:14
+[STOPBYICOUNT] Periodic at 7100011 delta = 99997 elapsed time = 00:01:15
+[STOPBYICOUNT] Periodic at 7200008 delta = 99997 elapsed time = 00:01:16
+[STOPBYICOUNT] Periodic at 7300005 delta = 99997 elapsed time = 00:01:17
+[STOPBYICOUNT] Periodic at 7400002 delta = 99997 elapsed time = 00:01:18
+[STOPBYICOUNT] Periodic at 7500002 delta = 100000 elapsed time = 00:01:18
+[STOPBYICOUNT] Periodic at 7600015 delta = 100013 elapsed time = 00:01:19
+[STOPBYICOUNT] Periodic at 7700012 delta = 99997 elapsed time = 00:01:20
+[STOPBYICOUNT] Periodic at 7800009 delta = 99997 elapsed time = 00:01:21
+[STOPBYICOUNT] Periodic at 7900006 delta = 99997 elapsed time = 00:01:23
+[STOPBYICOUNT] Periodic at 8000003 delta = 99997 elapsed time = 00:01:24
+[STOPBYICOUNT] Periodic at 8100003 delta = 100000 elapsed time = 00:01:25
+[STOPBYICOUNT] Periodic at 8200016 delta = 100013 elapsed time = 00:01:26
+[STOPBYICOUNT] Periodic at 8300013 delta = 99997 elapsed time = 00:01:27
+[STOPBYICOUNT] Periodic at 8400010 delta = 99997 elapsed time = 00:01:28
+[STOPBYICOUNT] Periodic at 8500007 delta = 99997 elapsed time = 00:01:28
+[STOPBYICOUNT] Periodic at 8600004 delta = 99997 elapsed time = 00:01:29
+[STOPBYICOUNT] Periodic at 8700001 delta = 99997 elapsed time = 00:01:30
+[STOPBYICOUNT] Periodic at 8800001 delta = 100000 elapsed time = 00:01:30
+[STOPBYICOUNT] Periodic at 8900014 delta = 100013 elapsed time = 00:01:31
+[STOPBYICOUNT] Periodic at 9000011 delta = 99997 elapsed time = 00:01:32
+[STOPBYICOUNT] Periodic at 9100008 delta = 99997 elapsed time = 00:01:33
+[STOPBYICOUNT] Periodic at 9200005 delta = 99997 elapsed time = 00:01:34
+[STOPBYICOUNT] Periodic at 9300002 delta = 99997 elapsed time = 00:01:35
+[STOPBYICOUNT] Periodic at 9400002 delta = 100000 elapsed time = 00:01:36
+[STOPBYICOUNT] Periodic at 9500015 delta = 100013 elapsed time = 00:01:37
+[STOPBYICOUNT] Periodic at 9600012 delta = 99997 elapsed time = 00:01:38
+[STOPBYICOUNT] Periodic at 9700009 delta = 99997 elapsed time = 00:01:38
+[STOPBYICOUNT] Periodic at 9800006 delta = 99997 elapsed time = 00:01:39
+[STOPBYICOUNT] Periodic at 9900003 delta = 99997 elapsed time = 00:01:40
+[STOPBYICOUNT] Periodic at 10000003 delta = 100000 elapsed time = 00:01:40
+[STOPBYICOUNT] Periodic at 10100016 delta = 100013 elapsed time = 00:01:41
+[STOPBYICOUNT] Periodic at 10200013 delta = 99997 elapsed time = 00:01:42
+[STOPBYICOUNT] Periodic at 10300010 delta = 99997 elapsed time = 00:01:43
+[STOPBYICOUNT] Periodic at 10400007 delta = 99997 elapsed time = 00:01:44
+[STOPBYICOUNT] Periodic at 10500004 delta = 99997 elapsed time = 00:01:45
+[STOPBYICOUNT] Periodic at 10600001 delta = 99997 elapsed time = 00:01:46
+[STOPBYICOUNT] Periodic at 10700001 delta = 100000 elapsed time = 00:01:48
+[STOPBYICOUNT] Periodic at 10800014 delta = 100013 elapsed time = 00:01:49
+[STOPBYICOUNT] Periodic at 10900011 delta = 99997 elapsed time = 00:01:50
+[STOPBYICOUNT] Periodic at 11000008 delta = 99997 elapsed time = 00:01:50
+[STOPBYICOUNT] Periodic at 11100005 delta = 99997 elapsed time = 00:01:51
+[STOPBYICOUNT] Periodic at 11200002 delta = 99997 elapsed time = 00:01:52
+[STOPBYICOUNT] Periodic at 11300002 delta = 100000 elapsed time = 00:01:52
+[STOPBYICOUNT] Periodic at 11400015 delta = 100013 elapsed time = 00:01:53
+[STOPBYICOUNT] Periodic at 11500012 delta = 99997 elapsed time = 00:01:54
+[STOPBYICOUNT] Periodic at 11600009 delta = 99997 elapsed time = 00:01:54
+[STOPBYICOUNT] Periodic at 11700006 delta = 99997 elapsed time = 00:01:55
+[STOPBYICOUNT] Periodic at 11800003 delta = 99997 elapsed time = 00:01:56
+[STOPBYICOUNT] Periodic at 11900003 delta = 100000 elapsed time = 00:01:57
+[STOPBYICOUNT] Periodic at 12000016 delta = 100013 elapsed time = 00:01:57
+[STOPBYICOUNT] Periodic at 12100013 delta = 99997 elapsed time = 00:01:58
+[STOPBYICOUNT] Periodic at 12200010 delta = 99997 elapsed time = 00:01:59
+[STOPBYICOUNT] Periodic at 12300007 delta = 99997 elapsed time = 00:01:59
+[STOPBYICOUNT] Periodic at 12400004 delta = 99997 elapsed time = 00:02:00
+[STOPBYICOUNT] Periodic at 12500001 delta = 99997 elapsed time = 00:02:01
+[STOPBYICOUNT] Periodic at 12600001 delta = 100000 elapsed time = 00:02:01
+[STOPBYICOUNT] Periodic at 12700014 delta = 100013 elapsed time = 00:02:03
+[STOPBYICOUNT] Periodic at 12800011 delta = 99997 elapsed time = 00:02:04
+[STOPBYICOUNT] Periodic at 12900008 delta = 99997 elapsed time = 00:02:05
+[STOPBYICOUNT] Periodic at 13000005 delta = 99997 elapsed time = 00:02:06
+[STOPBYICOUNT] Periodic at 13100002 delta = 99997 elapsed time = 00:02:07
+[STOPBYICOUNT] Periodic at 13200002 delta = 100000 elapsed time = 00:02:07
+[STOPBYICOUNT] Periodic at 13300015 delta = 100013 elapsed time = 00:02:08
+[STOPBYICOUNT] Periodic at 13400012 delta = 99997 elapsed time = 00:02:09
+[STOPBYICOUNT] Periodic at 13500009 delta = 99997 elapsed time = 00:02:09
+[STOPBYICOUNT] Periodic at 13600006 delta = 99997 elapsed time = 00:02:10
+[STOPBYICOUNT] Periodic at 13700003 delta = 99997 elapsed time = 00:02:11
+[STOPBYICOUNT] Periodic at 13800003 delta = 100000 elapsed time = 00:02:12
+[STOPBYICOUNT] Periodic at 13900016 delta = 100013 elapsed time = 00:02:12
+[STOPBYICOUNT] Periodic at 14000013 delta = 99997 elapsed time = 00:02:13
+[STOPBYICOUNT] Periodic at 14100010 delta = 99997 elapsed time = 00:02:14
+[STOPBYICOUNT] Periodic at 14200007 delta = 99997 elapsed time = 00:02:15
+[STOPBYICOUNT] Periodic at 14300004 delta = 99997 elapsed time = 00:02:15
+[STOPBYICOUNT] Periodic at 14400001 delta = 99997 elapsed time = 00:02:16
+[STOPBYICOUNT] Periodic at 14500001 delta = 100000 elapsed time = 00:02:17
+[STOPBYICOUNT] Periodic at 14600014 delta = 100013 elapsed time = 00:02:18
+[STOPBYICOUNT] Periodic at 14700011 delta = 99997 elapsed time = 00:02:18
+[STOPBYICOUNT] Periodic at 14800008 delta = 99997 elapsed time = 00:02:19
+[STOPBYICOUNT] Periodic at 14900005 delta = 99997 elapsed time = 00:02:20
+[STOPBYICOUNT] Periodic at 15000002 delta = 99997 elapsed time = 00:02:20
+[STOPBYICOUNT] Periodic at 15100002 delta = 100000 elapsed time = 00:02:21
+[STOPBYICOUNT] Periodic at 15200015 delta = 100013 elapsed time = 00:02:22
+[STOPBYICOUNT] Periodic at 15300012 delta = 99997 elapsed time = 00:02:23
+[STOPBYICOUNT] Periodic at 15400009 delta = 99997 elapsed time = 00:02:24
+[STOPBYICOUNT] Periodic at 15500006 delta = 99997 elapsed time = 00:02:25
+[STOPBYICOUNT] Periodic at 15600003 delta = 99997 elapsed time = 00:02:25
+[STOPBYICOUNT] Periodic at 15700003 delta = 100000 elapsed time = 00:02:27
+[STOPBYICOUNT] Periodic at 15800016 delta = 100013 elapsed time = 00:02:27
+[STOPBYICOUNT] Periodic at 15900013 delta = 99997 elapsed time = 00:02:28
+[STOPBYICOUNT] Periodic at 16000010 delta = 99997 elapsed time = 00:02:29
+[STOPBYICOUNT] Periodic at 16100007 delta = 99997 elapsed time = 00:02:30
+[STOPBYICOUNT] Periodic at 16200004 delta = 99997 elapsed time = 00:02:31
+[STOPBYICOUNT] Periodic at 16300001 delta = 99997 elapsed time = 00:02:32
+[STOPBYICOUNT] Periodic at 16400001 delta = 100000 elapsed time = 00:02:33
+[STOPBYICOUNT] Periodic at 16500014 delta = 100013 elapsed time = 00:02:33
+[STOPBYICOUNT] Periodic at 16600011 delta = 99997 elapsed time = 00:02:34
+[STOPBYICOUNT] Periodic at 16700008 delta = 99997 elapsed time = 00:02:35
+[STOPBYICOUNT] Periodic at 16800005 delta = 99997 elapsed time = 00:02:35
+[STOPBYICOUNT] Periodic at 16900002 delta = 99997 elapsed time = 00:02:36
+[STOPBYICOUNT] Periodic at 17000002 delta = 100000 elapsed time = 00:02:37
+[STOPBYICOUNT] Periodic at 17100015 delta = 100013 elapsed time = 00:02:38
+[STOPBYICOUNT] Periodic at 17200012 delta = 99997 elapsed time = 00:02:38
+[STOPBYICOUNT] Periodic at 17300009 delta = 99997 elapsed time = 00:02:40
+[STOPBYICOUNT] Periodic at 17400006 delta = 99997 elapsed time = 00:02:42
+[STOPBYICOUNT] Periodic at 17500003 delta = 99997 elapsed time = 00:02:43
+[STOPBYICOUNT] Periodic at 17600003 delta = 100000 elapsed time = 00:02:45
+[STOPBYICOUNT] Periodic at 17700016 delta = 100013 elapsed time = 00:02:46
+[STOPBYICOUNT] Periodic at 17800013 delta = 99997 elapsed time = 00:02:48
+[STOPBYICOUNT] Periodic at 17900010 delta = 99997 elapsed time = 00:02:49
+[STOPBYICOUNT] Periodic at 18000007 delta = 99997 elapsed time = 00:02:51
+[STOPBYICOUNT] Periodic at 18100004 delta = 99997 elapsed time = 00:02:53
+[STOPBYICOUNT] Periodic at 18200001 delta = 99997 elapsed time = 00:02:54
+[STOPBYICOUNT] Periodic at 18300001 delta = 100000 elapsed time = 00:02:56
+[STOPBYICOUNT] Periodic at 18400014 delta = 100013 elapsed time = 00:02:57
+[STOPBYICOUNT] Periodic at 18500011 delta = 99997 elapsed time = 00:02:58
+[STOPBYICOUNT] Periodic at 18600008 delta = 99997 elapsed time = 00:02:59
+[STOPBYICOUNT] Periodic at 18700005 delta = 99997 elapsed time = 00:02:59
+[STOPBYICOUNT] Periodic at 18800002 delta = 99997 elapsed time = 00:03:00
+[STOPBYICOUNT] Periodic at 18900002 delta = 100000 elapsed time = 00:03:02
+[STOPBYICOUNT] Periodic at 19000015 delta = 100013 elapsed time = 00:03:03
+[STOPBYICOUNT] Periodic at 19100012 delta = 99997 elapsed time = 00:03:04
+[STOPBYICOUNT] Periodic at 19200009 delta = 99997 elapsed time = 00:03:06
+[STOPBYICOUNT] Periodic at 19300006 delta = 99997 elapsed time = 00:03:06
+[STOPBYICOUNT] Periodic at 19400003 delta = 99997 elapsed time = 00:03:07
+[STOPBYICOUNT] Periodic at 19500003 delta = 100000 elapsed time = 00:03:08
+[STOPBYICOUNT] Periodic at 19600016 delta = 100013 elapsed time = 00:03:08
+[STOPBYICOUNT] Periodic at 19700013 delta = 99997 elapsed time = 00:03:09
+[STOPBYICOUNT] Periodic at 19800010 delta = 99997 elapsed time = 00:03:10
+[STOPBYICOUNT] Periodic at 19900007 delta = 99997 elapsed time = 00:03:11
+[STOPBYICOUNT] Periodic at 20000004 delta = 99997 elapsed time = 00:03:11
+[STOPBYICOUNT] Periodic at 20100001 delta = 99997 elapsed time = 00:03:12
+[STOPBYICOUNT] Periodic at 20200001 delta = 100000 elapsed time = 00:03:13
+[STOPBYICOUNT] Periodic at 20300014 delta = 100013 elapsed time = 00:03:13
+[STOPBYICOUNT] Periodic at 20400011 delta = 99997 elapsed time = 00:03:14
+[STOPBYICOUNT] Periodic at 20500008 delta = 99997 elapsed time = 00:03:15
+[STOPBYICOUNT] Periodic at 20600005 delta = 99997 elapsed time = 00:03:16
+[STOPBYICOUNT] Periodic at 20700002 delta = 99997 elapsed time = 00:03:16
+[STOPBYICOUNT] Periodic at 20800002 delta = 100000 elapsed time = 00:03:17
+[STOPBYICOUNT] Periodic at 20900015 delta = 100013 elapsed time = 00:03:18
+[STOPBYICOUNT] Periodic at 21000012 delta = 99997 elapsed time = 00:03:18
+[STOPBYICOUNT] Periodic at 21100009 delta = 99997 elapsed time = 00:03:19
+[STOPBYICOUNT] Periodic at 21200006 delta = 99997 elapsed time = 00:03:20
+[STOPBYICOUNT] Periodic at 21300003 delta = 99997 elapsed time = 00:03:20
+[STOPBYICOUNT] Periodic at 21400003 delta = 100000 elapsed time = 00:03:21
+[STOPBYICOUNT] Periodic at 21500016 delta = 100013 elapsed time = 00:03:22
+[STOPBYICOUNT] Periodic at 21600013 delta = 99997 elapsed time = 00:03:23
+[STOPBYICOUNT] Periodic at 21700010 delta = 99997 elapsed time = 00:03:23
+[STOPBYICOUNT] Periodic at 21800007 delta = 99997 elapsed time = 00:03:24
+[STOPBYICOUNT] Periodic at 21900004 delta = 99997 elapsed time = 00:03:26
+[STOPBYICOUNT] Periodic at 22000001 delta = 99997 elapsed time = 00:03:27
+[STOPBYICOUNT] Periodic at 22100001 delta = 100000 elapsed time = 00:03:29
+[STOPBYICOUNT] Periodic at 22200014 delta = 100013 elapsed time = 00:03:30
+[STOPBYICOUNT] Periodic at 22300011 delta = 99997 elapsed time = 00:03:30
+[STOPBYICOUNT] Periodic at 22400008 delta = 99997 elapsed time = 00:03:31
+[STOPBYICOUNT] Periodic at 22500005 delta = 99997 elapsed time = 00:03:32
+[STOPBYICOUNT] Periodic at 22600002 delta = 99997 elapsed time = 00:03:33
+[STOPBYICOUNT] Periodic at 22700002 delta = 100000 elapsed time = 00:03:33
+[STOPBYICOUNT] Periodic at 22800015 delta = 100013 elapsed time = 00:03:34
+[STOPBYICOUNT] Periodic at 22900012 delta = 99997 elapsed time = 00:03:35
+[STOPBYICOUNT] Periodic at 23000009 delta = 99997 elapsed time = 00:03:35
+[STOPBYICOUNT] Periodic at 23100006 delta = 99997 elapsed time = 00:03:36
+[STOPBYICOUNT] Periodic at 23200003 delta = 99997 elapsed time = 00:03:37
+[STOPBYICOUNT] Periodic at 23300003 delta = 100000 elapsed time = 00:03:38
+[STOPBYICOUNT] Periodic at 23400016 delta = 100013 elapsed time = 00:03:39
+[STOPBYICOUNT] Periodic at 23500013 delta = 99997 elapsed time = 00:03:40
+[STOPBYICOUNT] Periodic at 23600010 delta = 99997 elapsed time = 00:03:41
+[STOPBYICOUNT] Periodic at 23700007 delta = 99997 elapsed time = 00:03:41
+[STOPBYICOUNT] Periodic at 23800004 delta = 99997 elapsed time = 00:03:42
+[STOPBYICOUNT] Periodic at 23900001 delta = 99997 elapsed time = 00:03:43
+[STOPBYICOUNT] Periodic at 24000001 delta = 100000 elapsed time = 00:03:43
+[STOPBYICOUNT] Periodic at 24100014 delta = 100013 elapsed time = 00:03:44
+[STOPBYICOUNT] Periodic at 24200011 delta = 99997 elapsed time = 00:03:45
+[STOPBYICOUNT] Periodic at 24300008 delta = 99997 elapsed time = 00:03:46
+[STOPBYICOUNT] Periodic at 24400005 delta = 99997 elapsed time = 00:03:47
+[STOPBYICOUNT] Periodic at 24500002 delta = 99997 elapsed time = 00:03:49
+[STOPBYICOUNT] Periodic at 24600002 delta = 100000 elapsed time = 00:03:50
+[STOPBYICOUNT] Periodic at 24700015 delta = 100013 elapsed time = 00:03:52
+[STOPBYICOUNT] Periodic at 24800012 delta = 99997 elapsed time = 00:03:53
+[STOPBYICOUNT] Periodic at 24900009 delta = 99997 elapsed time = 00:03:54
+[STOPBYICOUNT] Periodic at 25000006 delta = 99997 elapsed time = 00:03:55
+[STOPBYICOUNT] Periodic at 25100003 delta = 99997 elapsed time = 00:03:56
+[STOPBYICOUNT] Periodic at 25200003 delta = 100000 elapsed time = 00:03:57
+[STOPBYICOUNT] Periodic at 25300016 delta = 100013 elapsed time = 00:03:57
+[STOPBYICOUNT] Periodic at 25400013 delta = 99997 elapsed time = 00:03:58
+[STOPBYICOUNT] Periodic at 25500010 delta = 99997 elapsed time = 00:03:59
+[STOPBYICOUNT] Periodic at 25600007 delta = 99997 elapsed time = 00:03:59
+[STOPBYICOUNT] Periodic at 25700004 delta = 99997 elapsed time = 00:04:00
+[STOPBYICOUNT] Periodic at 25800001 delta = 99997 elapsed time = 00:04:01
+[STOPBYICOUNT] Periodic at 25900001 delta = 100000 elapsed time = 00:04:01
+[STOPBYICOUNT] Periodic at 26000014 delta = 100013 elapsed time = 00:04:02
+[STOPBYICOUNT] Periodic at 26100011 delta = 99997 elapsed time = 00:04:03
+[STOPBYICOUNT] Periodic at 26200008 delta = 99997 elapsed time = 00:04:04
+[STOPBYICOUNT] Periodic at 26300005 delta = 99997 elapsed time = 00:04:05
+[STOPBYICOUNT] Periodic at 26400002 delta = 99997 elapsed time = 00:04:06
+[STOPBYICOUNT] Periodic at 26500002 delta = 100000 elapsed time = 00:04:08
+[STOPBYICOUNT] Periodic at 26600015 delta = 100013 elapsed time = 00:04:10
+[STOPBYICOUNT] Periodic at 26700012 delta = 99997 elapsed time = 00:04:12
+[STOPBYICOUNT] Periodic at 26800009 delta = 99997 elapsed time = 00:04:14
+[STOPBYICOUNT] Periodic at 26900006 delta = 99997 elapsed time = 00:04:15
+[STOPBYICOUNT] Periodic at 27000003 delta = 99997 elapsed time = 00:04:17
+[STOPBYICOUNT] Periodic at 27100003 delta = 100000 elapsed time = 00:04:18
+[STOPBYICOUNT] Periodic at 27200016 delta = 100013 elapsed time = 00:04:19
+[STOPBYICOUNT] Periodic at 27300013 delta = 99997 elapsed time = 00:04:20
+[STOPBYICOUNT] Periodic at 27400010 delta = 99997 elapsed time = 00:04:21
+[STOPBYICOUNT] Periodic at 27500007 delta = 99997 elapsed time = 00:04:21
+[STOPBYICOUNT] Periodic at 27600004 delta = 99997 elapsed time = 00:04:22
+[STOPBYICOUNT] Periodic at 27700001 delta = 99997 elapsed time = 00:04:24
+[STOPBYICOUNT] Periodic at 27800001 delta = 100000 elapsed time = 00:04:25
+[STOPBYICOUNT] Periodic at 27900014 delta = 100013 elapsed time = 00:04:26
+[STOPBYICOUNT] Periodic at 28000011 delta = 99997 elapsed time = 00:04:27
+[STOPBYICOUNT] Periodic at 28100008 delta = 99997 elapsed time = 00:04:28
+[STOPBYICOUNT] Periodic at 28200005 delta = 99997 elapsed time = 00:04:28
+[STOPBYICOUNT] Periodic at 28300002 delta = 99997 elapsed time = 00:04:29
+[STOPBYICOUNT] Periodic at 28400002 delta = 100000 elapsed time = 00:04:30
+[STOPBYICOUNT] Periodic at 28500015 delta = 100013 elapsed time = 00:04:31
+[STOPBYICOUNT] Periodic at 28600012 delta = 99997 elapsed time = 00:04:31
+[STOPBYICOUNT] Periodic at 28700009 delta = 99997 elapsed time = 00:04:32
+[STOPBYICOUNT] Periodic at 28800006 delta = 99997 elapsed time = 00:04:33
+[STOPBYICOUNT] Periodic at 28900003 delta = 99997 elapsed time = 00:04:33
+[STOPBYICOUNT] Periodic at 29000003 delta = 100000 elapsed time = 00:04:34
+[STOPBYICOUNT] Periodic at 29100016 delta = 100013 elapsed time = 00:04:35
+[STOPBYICOUNT] Periodic at 29200013 delta = 99997 elapsed time = 00:04:36
+[STOPBYICOUNT] Periodic at 29300010 delta = 99997 elapsed time = 00:04:37
+[STOPBYICOUNT] Periodic at 29400007 delta = 99997 elapsed time = 00:04:37
+[STOPBYICOUNT] Periodic at 29500004 delta = 99997 elapsed time = 00:04:38
+[STOPBYICOUNT] Periodic at 29600001 delta = 99997 elapsed time = 00:04:40
+[STOPBYICOUNT] Periodic at 29700001 delta = 100000 elapsed time = 00:04:41
+[STOPBYICOUNT] Periodic at 29800014 delta = 100013 elapsed time = 00:04:42
+[STOPBYICOUNT] Periodic at 29900011 delta = 99997 elapsed time = 00:04:42
+[STOPBYICOUNT] Periodic at 30000008 delta = 99997 elapsed time = 00:04:43
+[STOPBYICOUNT] Periodic at 30100005 delta = 99997 elapsed time = 00:04:44
+[STOPBYICOUNT] Periodic at 30200002 delta = 99997 elapsed time = 00:04:45
+[STOPBYICOUNT] Periodic at 30300002 delta = 100000 elapsed time = 00:04:45
+[STOPBYICOUNT] Periodic at 30400015 delta = 100013 elapsed time = 00:04:46
+[STOPBYICOUNT] Periodic at 30500012 delta = 99997 elapsed time = 00:04:47
+[STOPBYICOUNT] Periodic at 30600009 delta = 99997 elapsed time = 00:04:47
+[STOPBYICOUNT] Periodic at 30700006 delta = 99997 elapsed time = 00:04:48
+[STOPBYICOUNT] Periodic at 30800003 delta = 99997 elapsed time = 00:04:49
+[STOPBYICOUNT] Periodic at 30900003 delta = 100000 elapsed time = 00:04:50
+[STOPBYICOUNT] Periodic at 31000016 delta = 100013 elapsed time = 00:04:50
+[STOPBYICOUNT] Periodic at 31100013 delta = 99997 elapsed time = 00:04:51
+[STOPBYICOUNT] Periodic at 31200010 delta = 99997 elapsed time = 00:04:52
+[STOPBYICOUNT] Periodic at 31300007 delta = 99997 elapsed time = 00:04:53
+[STOPBYICOUNT] Periodic at 31400004 delta = 99997 elapsed time = 00:04:53
+[STOPBYICOUNT] Periodic at 31500001 delta = 99997 elapsed time = 00:04:54
+[STOPBYICOUNT] Periodic at 31600001 delta = 100000 elapsed time = 00:04:55
+[STOPBYICOUNT] Periodic at 31700014 delta = 100013 elapsed time = 00:04:56
+[STOPBYICOUNT] Periodic at 31800011 delta = 99997 elapsed time = 00:04:56
+[STOPBYICOUNT] Periodic at 31900008 delta = 99997 elapsed time = 00:04:57
+[STOPBYICOUNT] Periodic at 32000005 delta = 99997 elapsed time = 00:04:58
+[STOPBYICOUNT] Periodic at 32100002 delta = 99997 elapsed time = 00:04:58
+[STOPBYICOUNT] Periodic at 32200002 delta = 100000 elapsed time = 00:04:59
+[STOPBYICOUNT] Periodic at 32300015 delta = 100013 elapsed time = 00:05:00
+[STOPBYICOUNT] Periodic at 32400012 delta = 99997 elapsed time = 00:05:00
+[STOPBYICOUNT] Periodic at 32500009 delta = 99997 elapsed time = 00:05:02
+[STOPBYICOUNT] Periodic at 32600006 delta = 99997 elapsed time = 00:05:03
+[STOPBYICOUNT] Periodic at 32700003 delta = 99997 elapsed time = 00:05:05
+[STOPBYICOUNT] Periodic at 32800003 delta = 100000 elapsed time = 00:05:06
+[STOPBYICOUNT] Periodic at 32900016 delta = 100013 elapsed time = 00:05:07
+[STOPBYICOUNT] Periodic at 33000013 delta = 99997 elapsed time = 00:05:08
+[STOPBYICOUNT] Periodic at 33100010 delta = 99997 elapsed time = 00:05:09
+[STOPBYICOUNT] Periodic at 33200007 delta = 99997 elapsed time = 00:05:10
+[STOPBYICOUNT] Periodic at 33300004 delta = 99997 elapsed time = 00:05:11
+[STOPBYICOUNT] Periodic at 33400001 delta = 99997 elapsed time = 00:05:12
+[STOPBYICOUNT] Periodic at 33500001 delta = 100000 elapsed time = 00:05:13
+[STOPBYICOUNT] Periodic at 33600014 delta = 100013 elapsed time = 00:05:13
+[STOPBYICOUNT] Periodic at 33700011 delta = 99997 elapsed time = 00:05:14
+[STOPBYICOUNT] Periodic at 33800008 delta = 99997 elapsed time = 00:05:15
+[STOPBYICOUNT] Periodic at 33900005 delta = 99997 elapsed time = 00:05:16
+[STOPBYICOUNT] Periodic at 34000002 delta = 99997 elapsed time = 00:05:16
+[STOPBYICOUNT] Periodic at 34100002 delta = 100000 elapsed time = 00:05:17
+[STOPBYICOUNT] Periodic at 34200015 delta = 100013 elapsed time = 00:05:18
+[STOPBYICOUNT] Periodic at 34300012 delta = 99997 elapsed time = 00:05:19
+[STOPBYICOUNT] Periodic at 34400009 delta = 99997 elapsed time = 00:05:20
+[STOPBYICOUNT] Periodic at 34500006 delta = 99997 elapsed time = 00:05:21
+[STOPBYICOUNT] Periodic at 34600003 delta = 99997 elapsed time = 00:05:22
+[STOPBYICOUNT] Periodic at 34700003 delta = 100000 elapsed time = 00:05:22
+[STOPBYICOUNT] Periodic at 34800016 delta = 100013 elapsed time = 00:05:23
+[STOPBYICOUNT] Periodic at 34900013 delta = 99997 elapsed time = 00:05:24
+[STOPBYICOUNT] Periodic at 35000010 delta = 99997 elapsed time = 00:05:24
+[STOPBYICOUNT] Periodic at 35100007 delta = 99997 elapsed time = 00:05:25
+[STOPBYICOUNT] Periodic at 35200004 delta = 99997 elapsed time = 00:05:26
+[STOPBYICOUNT] Periodic at 35300001 delta = 99997 elapsed time = 00:05:27
+[STOPBYICOUNT] Periodic at 35400001 delta = 100000 elapsed time = 00:05:28
+[STOPBYICOUNT] Periodic at 35500014 delta = 100013 elapsed time = 00:05:29
+[STOPBYICOUNT] Periodic at 35600011 delta = 99997 elapsed time = 00:05:30
+[STOPBYICOUNT] Periodic at 35700008 delta = 99997 elapsed time = 00:05:30
+[STOPBYICOUNT] Periodic at 35800005 delta = 99997 elapsed time = 00:05:31
+[STOPBYICOUNT] Periodic at 35900002 delta = 99997 elapsed time = 00:05:32
+[STOPBYICOUNT] Periodic at 36000002 delta = 100000 elapsed time = 00:05:33
+[STOPBYICOUNT] Periodic at 36100015 delta = 100013 elapsed time = 00:05:33
+[STOPBYICOUNT] Periodic at 36200012 delta = 99997 elapsed time = 00:05:34
+[STOPBYICOUNT] Periodic at 36300009 delta = 99997 elapsed time = 00:05:36
+[STOPBYICOUNT] Periodic at 36400006 delta = 99997 elapsed time = 00:05:37
+[STOPBYICOUNT] Periodic at 36500003 delta = 99997 elapsed time = 00:05:38
+[STOPBYICOUNT] Periodic at 36600003 delta = 100000 elapsed time = 00:05:39
+[STOPBYICOUNT] Periodic at 36700016 delta = 100013 elapsed time = 00:05:40
+[STOPBYICOUNT] Periodic at 36800013 delta = 99997 elapsed time = 00:05:41
+[STOPBYICOUNT] Periodic at 36900010 delta = 99997 elapsed time = 00:05:42
+[STOPBYICOUNT] Periodic at 37000007 delta = 99997 elapsed time = 00:05:43
+[STOPBYICOUNT] Periodic at 37100004 delta = 99997 elapsed time = 00:05:43
+[STOPBYICOUNT] Periodic at 37200001 delta = 99997 elapsed time = 00:05:44
+[STOPBYICOUNT] Periodic at 37300001 delta = 100000 elapsed time = 00:05:45
+[STOPBYICOUNT] Periodic at 37400014 delta = 100013 elapsed time = 00:05:45
+[STOPBYICOUNT] Periodic at 37500011 delta = 99997 elapsed time = 00:05:46
+[STOPBYICOUNT] Periodic at 37600008 delta = 99997 elapsed time = 00:05:47
+[STOPBYICOUNT] Periodic at 37700005 delta = 99997 elapsed time = 00:05:48
+[STOPBYICOUNT] Periodic at 37800002 delta = 99997 elapsed time = 00:05:48
+[STOPBYICOUNT] Periodic at 37900002 delta = 100000 elapsed time = 00:05:50
+[STOPBYICOUNT] Periodic at 38000015 delta = 100013 elapsed time = 00:05:51
+[STOPBYICOUNT] Periodic at 38100012 delta = 99997 elapsed time = 00:05:53
+[STOPBYICOUNT] Periodic at 38200009 delta = 99997 elapsed time = 00:05:55
+[STOPBYICOUNT] Periodic at 38300006 delta = 99997 elapsed time = 00:05:57
+[STOPBYICOUNT] Periodic at 38400003 delta = 99997 elapsed time = 00:05:58
+[STOPBYICOUNT] Periodic at 38500003 delta = 100000 elapsed time = 00:05:59
+[STOPBYICOUNT] Periodic at 38600016 delta = 100013 elapsed time = 00:06:00
+[STOPBYICOUNT] Periodic at 38700013 delta = 99997 elapsed time = 00:06:01
+[STOPBYICOUNT] Periodic at 38800010 delta = 99997 elapsed time = 00:06:01
+[STOPBYICOUNT] Periodic at 38900007 delta = 99997 elapsed time = 00:06:02
+[STOPBYICOUNT] Periodic at 39000004 delta = 99997 elapsed time = 00:06:03
+[STOPBYICOUNT] Periodic at 39100001 delta = 99997 elapsed time = 00:06:04
+[STOPBYICOUNT] Periodic at 39200001 delta = 100000 elapsed time = 00:06:06
+[STOPBYICOUNT] Periodic at 39300014 delta = 100013 elapsed time = 00:06:08
+[STOPBYICOUNT] Periodic at 39400011 delta = 99997 elapsed time = 00:06:10
+[STOPBYICOUNT] Periodic at 39500008 delta = 99997 elapsed time = 00:06:12
+[STOPBYICOUNT] Periodic at 39600005 delta = 99997 elapsed time = 00:06:14
+[STOPBYICOUNT] Periodic at 39700002 delta = 99997 elapsed time = 00:06:16
+[STOPBYICOUNT] Periodic at 39800002 delta = 100000 elapsed time = 00:06:19
+[STOPBYICOUNT] Periodic at 39900015 delta = 100013 elapsed time = 00:06:21
+[STOPBYICOUNT] Periodic at 40000012 delta = 99997 elapsed time = 00:06:23
+[STOPBYICOUNT] Periodic at 40100009 delta = 99997 elapsed time = 00:06:25
+[STOPBYICOUNT] Periodic at 40200006 delta = 99997 elapsed time = 00:06:26
+[STOPBYICOUNT] Periodic at 40300003 delta = 99997 elapsed time = 00:06:28
+[STOPBYICOUNT] Periodic at 40400003 delta = 100000 elapsed time = 00:06:30
+[STOPBYICOUNT] Periodic at 40500016 delta = 100013 elapsed time = 00:06:32
+[STOPBYICOUNT] Periodic at 40600013 delta = 99997 elapsed time = 00:06:33
+[STOPBYICOUNT] Periodic at 40700010 delta = 99997 elapsed time = 00:06:35
+[STOPBYICOUNT] Periodic at 40800007 delta = 99997 elapsed time = 00:06:37
+[STOPBYICOUNT] Periodic at 40900004 delta = 99997 elapsed time = 00:06:39
+[STOPBYICOUNT] Periodic at 41000001 delta = 99997 elapsed time = 00:06:41
+[STOPBYICOUNT] Periodic at 41100001 delta = 100000 elapsed time = 00:06:42
+[STOPBYICOUNT] Periodic at 41200014 delta = 100013 elapsed time = 00:06:44
+[STOPBYICOUNT] Periodic at 41300011 delta = 99997 elapsed time = 00:06:47
+[STOPBYICOUNT] Periodic at 41400008 delta = 99997 elapsed time = 00:06:49
+[STOPBYICOUNT] Periodic at 41500005 delta = 99997 elapsed time = 00:06:51
+[STOPBYICOUNT] Periodic at 41600002 delta = 99997 elapsed time = 00:06:53
+[STOPBYICOUNT] Periodic at 41700002 delta = 100000 elapsed time = 00:06:55
+[STOPBYICOUNT] Periodic at 41800015 delta = 100013 elapsed time = 00:06:57
+[STOPBYICOUNT] Periodic at 41900012 delta = 99997 elapsed time = 00:06:59
+[STOPBYICOUNT] Periodic at 42000009 delta = 99997 elapsed time = 00:07:01
+[STOPBYICOUNT] Periodic at 42100006 delta = 99997 elapsed time = 00:07:03
+[STOPBYICOUNT] Periodic at 42200003 delta = 99997 elapsed time = 00:07:05
+[STOPBYICOUNT] Periodic at 42300003 delta = 100000 elapsed time = 00:07:07
+[STOPBYICOUNT] Periodic at 42400016 delta = 100013 elapsed time = 00:07:09
+[STOPBYICOUNT] Periodic at 42500013 delta = 99997 elapsed time = 00:07:11
+[STOPBYICOUNT] Periodic at 42600010 delta = 99997 elapsed time = 00:07:13
+[STOPBYICOUNT] Periodic at 42700007 delta = 99997 elapsed time = 00:07:15
+[STOPBYICOUNT] Periodic at 42800004 delta = 99997 elapsed time = 00:07:17
+[STOPBYICOUNT] Periodic at 42900001 delta = 99997 elapsed time = 00:07:18
+[STOPBYICOUNT] Periodic at 43000001 delta = 100000 elapsed time = 00:07:20
+[STOPBYICOUNT] Periodic at 43100014 delta = 100013 elapsed time = 00:07:22
+[STOPBYICOUNT] Periodic at 43200011 delta = 99997 elapsed time = 00:07:24
+[STOPBYICOUNT] Periodic at 43300008 delta = 99997 elapsed time = 00:07:25
+[STOPBYICOUNT] Periodic at 43400005 delta = 99997 elapsed time = 00:07:27
+[STOPBYICOUNT] Periodic at 43500002 delta = 99997 elapsed time = 00:07:29
+[STOPBYICOUNT] Periodic at 43600002 delta = 100000 elapsed time = 00:07:31
+[STOPBYICOUNT] Periodic at 43700015 delta = 100013 elapsed time = 00:07:32
+[STOPBYICOUNT] Periodic at 43800012 delta = 99997 elapsed time = 00:07:34
+[STOPBYICOUNT] Periodic at 43900009 delta = 99997 elapsed time = 00:07:36
+[STOPBYICOUNT] Periodic at 44000006 delta = 99997 elapsed time = 00:07:38
+[STOPBYICOUNT] Periodic at 44100003 delta = 99997 elapsed time = 00:07:41
+[STOPBYICOUNT] Periodic at 44200003 delta = 100000 elapsed time = 00:07:43
+[STOPBYICOUNT] Periodic at 44300016 delta = 100013 elapsed time = 00:07:46
+[STOPBYICOUNT] Periodic at 44400013 delta = 99997 elapsed time = 00:07:48
+[STOPBYICOUNT] Periodic at 44500010 delta = 99997 elapsed time = 00:07:51
+[STOPBYICOUNT] Periodic at 44600007 delta = 99997 elapsed time = 00:07:52
+[STOPBYICOUNT] Periodic at 44700004 delta = 99997 elapsed time = 00:07:54
+[STOPBYICOUNT] Periodic at 44800001 delta = 99997 elapsed time = 00:07:56
+[STOPBYICOUNT] Periodic at 44900001 delta = 100000 elapsed time = 00:07:58
+[STOPBYICOUNT] Periodic at 45000014 delta = 100013 elapsed time = 00:07:59
+[STOPBYICOUNT] Periodic at 45100011 delta = 99997 elapsed time = 00:08:01
+[STOPBYICOUNT] Periodic at 45200008 delta = 99997 elapsed time = 00:08:03
+[STOPBYICOUNT] Periodic at 45300005 delta = 99997 elapsed time = 00:08:05
+[STOPBYICOUNT] Periodic at 45400002 delta = 99997 elapsed time = 00:08:07
+[STOPBYICOUNT] Periodic at 45500002 delta = 100000 elapsed time = 00:08:08
+[STOPBYICOUNT] Periodic at 45600015 delta = 100013 elapsed time = 00:08:10
+[STOPBYICOUNT] Periodic at 45700012 delta = 99997 elapsed time = 00:08:12
+[STOPBYICOUNT] Periodic at 45800009 delta = 99997 elapsed time = 00:08:14
+[STOPBYICOUNT] Periodic at 45900006 delta = 99997 elapsed time = 00:08:16
+[STOPBYICOUNT] Periodic at 46000003 delta = 99997 elapsed time = 00:08:17
+[STOPBYICOUNT] Periodic at 46100003 delta = 100000 elapsed time = 00:08:19
+[STOPBYICOUNT] Periodic at 46200016 delta = 100013 elapsed time = 00:08:21
+[STOPBYICOUNT] Periodic at 46300013 delta = 99997 elapsed time = 00:08:23
+[STOPBYICOUNT] Periodic at 46400010 delta = 99997 elapsed time = 00:08:25
+[STOPBYICOUNT] Periodic at 46500007 delta = 99997 elapsed time = 00:08:27
+[STOPBYICOUNT] Periodic at 46600004 delta = 99997 elapsed time = 00:08:28
+[STOPBYICOUNT] Periodic at 46700001 delta = 99997 elapsed time = 00:08:30
+[STOPBYICOUNT] Periodic at 46800001 delta = 100000 elapsed time = 00:08:32
+[STOPBYICOUNT] Periodic at 46900014 delta = 100013 elapsed time = 00:08:34
+[STOPBYICOUNT] Periodic at 47000011 delta = 99997 elapsed time = 00:08:36
+[STOPBYICOUNT] Periodic at 47100008 delta = 99997 elapsed time = 00:08:37
+[STOPBYICOUNT] Periodic at 47200005 delta = 99997 elapsed time = 00:08:39
+[STOPBYICOUNT] Periodic at 47300002 delta = 99997 elapsed time = 00:08:41
+[STOPBYICOUNT] Periodic at 47400002 delta = 100000 elapsed time = 00:08:43
+[STOPBYICOUNT] Periodic at 47500015 delta = 100013 elapsed time = 00:08:45
+[STOPBYICOUNT] Periodic at 47600012 delta = 99997 elapsed time = 00:08:47
+[STOPBYICOUNT] Periodic at 47700009 delta = 99997 elapsed time = 00:08:49
+[STOPBYICOUNT] Periodic at 47800006 delta = 99997 elapsed time = 00:08:51
+[STOPBYICOUNT] Periodic at 47900003 delta = 99997 elapsed time = 00:08:53
+[STOPBYICOUNT] Periodic at 48000003 delta = 100000 elapsed time = 00:08:56
+[STOPBYICOUNT] Periodic at 48100016 delta = 100013 elapsed time = 00:08:58
+[STOPBYICOUNT] Periodic at 48200013 delta = 99997 elapsed time = 00:09:00
+[STOPBYICOUNT] Periodic at 48300010 delta = 99997 elapsed time = 00:09:04
+[STOPBYICOUNT] Periodic at 48400007 delta = 99997 elapsed time = 00:09:07
+[STOPBYICOUNT] Periodic at 48500004 delta = 99997 elapsed time = 00:09:09
+[STOPBYICOUNT] Periodic at 48600001 delta = 99997 elapsed time = 00:09:10
+[STOPBYICOUNT] Periodic at 48700001 delta = 100000 elapsed time = 00:09:11
+[STOPBYICOUNT] Periodic at 48800014 delta = 100013 elapsed time = 00:09:12
+[STOPBYICOUNT] Periodic at 48900011 delta = 99997 elapsed time = 00:09:13
+[STOPBYICOUNT] Periodic at 49000008 delta = 99997 elapsed time = 00:09:14
+[STOPBYICOUNT] Periodic at 49100005 delta = 99997 elapsed time = 00:09:16
+[STOPBYICOUNT] Periodic at 49200002 delta = 99997 elapsed time = 00:09:17
+[STOPBYICOUNT] Periodic at 49300002 delta = 100000 elapsed time = 00:09:18
+[STOPBYICOUNT] Periodic at 49400015 delta = 100013 elapsed time = 00:09:20
+[STOPBYICOUNT] Periodic at 49500012 delta = 99997 elapsed time = 00:09:22
+[STOPBYICOUNT] Periodic at 49600009 delta = 99997 elapsed time = 00:09:24
+[STOPBYICOUNT] Periodic at 49700006 delta = 99997 elapsed time = 00:09:25
+[STOPBYICOUNT] Periodic at 49800003 delta = 99997 elapsed time = 00:09:27
+[STOPBYICOUNT] Periodic at 49900003 delta = 100000 elapsed time = 00:09:30
+[STOPBYICOUNT] Periodic at 50000016 delta = 100013 elapsed time = 00:09:32
+[STOPBYICOUNT] Periodic at 50100013 delta = 99997 elapsed time = 00:09:36
+[STOPBYICOUNT] Periodic at 50200010 delta = 99997 elapsed time = 00:09:38
+[STOPBYICOUNT] Periodic at 50300007 delta = 99997 elapsed time = 00:09:40
+[STOPBYICOUNT] Periodic at 50400004 delta = 99997 elapsed time = 00:09:44
+[STOPBYICOUNT] Periodic at 50500001 delta = 99997 elapsed time = 00:09:47
+[STOPBYICOUNT] Periodic at 50600001 delta = 100000 elapsed time = 00:09:49
+[STOPBYICOUNT] Periodic at 50700014 delta = 100013 elapsed time = 00:09:50
+[STOPBYICOUNT] Periodic at 50800011 delta = 99997 elapsed time = 00:09:51
+[STOPBYICOUNT] Periodic at 50900008 delta = 99997 elapsed time = 00:09:52
+[STOPBYICOUNT] Periodic at 51000005 delta = 99997 elapsed time = 00:09:54
+[STOPBYICOUNT] Periodic at 51100002 delta = 99997 elapsed time = 00:09:57
+[STOPBYICOUNT] Periodic at 51200002 delta = 100000 elapsed time = 00:09:59
+[STOPBYICOUNT] Periodic at 51300015 delta = 100013 elapsed time = 00:10:00
+[STOPBYICOUNT] Periodic at 51400012 delta = 99997 elapsed time = 00:10:01
+[STOPBYICOUNT] Periodic at 51500009 delta = 99997 elapsed time = 00:10:02
+[STOPBYICOUNT] Periodic at 51600006 delta = 99997 elapsed time = 00:10:03
+[STOPBYICOUNT] Periodic at 51700003 delta = 99997 elapsed time = 00:10:04
+[STOPBYICOUNT] Periodic at 51800003 delta = 100000 elapsed time = 00:10:07
+[STOPBYICOUNT] Periodic at 51900016 delta = 100013 elapsed time = 00:10:10
+[STOPBYICOUNT] Periodic at 52000013 delta = 99997 elapsed time = 00:10:12
+[STOPBYICOUNT] Periodic at 52100010 delta = 99997 elapsed time = 00:10:14
+[STOPBYICOUNT] Periodic at 52200007 delta = 99997 elapsed time = 00:10:16
+[STOPBYICOUNT] Periodic at 52300004 delta = 99997 elapsed time = 00:10:17
+[STOPBYICOUNT] Periodic at 52400001 delta = 99997 elapsed time = 00:10:18
+[STOPBYICOUNT] Periodic at 52500001 delta = 100000 elapsed time = 00:10:19
+[STOPBYICOUNT] Periodic at 52600014 delta = 100013 elapsed time = 00:10:21
+[STOPBYICOUNT] Periodic at 52700011 delta = 99997 elapsed time = 00:10:24
+[STOPBYICOUNT] Periodic at 52800008 delta = 99997 elapsed time = 00:10:26
+[STOPBYICOUNT] Periodic at 52900005 delta = 99997 elapsed time = 00:10:29
+[STOPBYICOUNT] Periodic at 53000002 delta = 99997 elapsed time = 00:10:33
+[STOPBYICOUNT] Periodic at 53100002 delta = 100000 elapsed time = 00:10:35
+[STOPBYICOUNT] Periodic at 53200015 delta = 100013 elapsed time = 00:10:37
+[STOPBYICOUNT] Periodic at 53300012 delta = 99997 elapsed time = 00:10:39
+[STOPBYICOUNT] Periodic at 53400009 delta = 99997 elapsed time = 00:10:41
+[STOPBYICOUNT] Periodic at 53500006 delta = 99997 elapsed time = 00:10:44
+[STOPBYICOUNT] Periodic at 53600003 delta = 99997 elapsed time = 00:10:46
+[STOPBYICOUNT] Periodic at 53700003 delta = 100000 elapsed time = 00:10:48
+[STOPBYICOUNT] Periodic at 53800016 delta = 100013 elapsed time = 00:10:49
+[STOPBYICOUNT] Periodic at 53900013 delta = 99997 elapsed time = 00:10:51
+[STOPBYICOUNT] Periodic at 54000010 delta = 99997 elapsed time = 00:10:53
+[STOPBYICOUNT] Periodic at 54100007 delta = 99997 elapsed time = 00:10:55
+[STOPBYICOUNT] Periodic at 54200004 delta = 99997 elapsed time = 00:10:57
+[STOPBYICOUNT] Periodic at 54300001 delta = 99997 elapsed time = 00:11:01
+[STOPBYICOUNT] Periodic at 54400001 delta = 100000 elapsed time = 00:11:04
+[STOPBYICOUNT] Periodic at 54500014 delta = 100013 elapsed time = 00:11:06
+[STOPBYICOUNT] Periodic at 54600011 delta = 99997 elapsed time = 00:11:08
+[STOPBYICOUNT] Periodic at 54700008 delta = 99997 elapsed time = 00:11:10
+[STOPBYICOUNT] Periodic at 54800005 delta = 99997 elapsed time = 00:11:11
+[STOPBYICOUNT] Periodic at 54900002 delta = 99997 elapsed time = 00:11:13
+[STOPBYICOUNT] Periodic at 55000002 delta = 100000 elapsed time = 00:11:15
+[STOPBYICOUNT] Periodic at 55100015 delta = 100013 elapsed time = 00:11:16
+[STOPBYICOUNT] Periodic at 55200012 delta = 99997 elapsed time = 00:11:18
+[STOPBYICOUNT] Periodic at 55300009 delta = 99997 elapsed time = 00:11:20
+[STOPBYICOUNT] Periodic at 55400006 delta = 99997 elapsed time = 00:11:21
+[STOPBYICOUNT] Periodic at 55500003 delta = 99997 elapsed time = 00:11:22
+[STOPBYICOUNT] Periodic at 55600003 delta = 100000 elapsed time = 00:11:23
+[STOPBYICOUNT] Periodic at 55700016 delta = 100013 elapsed time = 00:11:25
+[STOPBYICOUNT] Periodic at 55800013 delta = 99997 elapsed time = 00:11:28
+[STOPBYICOUNT] Periodic at 55900010 delta = 99997 elapsed time = 00:11:31
+[STOPBYICOUNT] Periodic at 56000007 delta = 99997 elapsed time = 00:11:34
+[STOPBYICOUNT] Periodic at 56100004 delta = 99997 elapsed time = 00:11:36
+[STOPBYICOUNT] Periodic at 56200001 delta = 99997 elapsed time = 00:11:37
+[STOPBYICOUNT] Periodic at 56300001 delta = 100000 elapsed time = 00:11:39
+[STOPBYICOUNT] Periodic at 56400014 delta = 100013 elapsed time = 00:11:41
+[STOPBYICOUNT] Periodic at 56500011 delta = 99997 elapsed time = 00:11:43
+[STOPBYICOUNT] Periodic at 56600008 delta = 99997 elapsed time = 00:11:46
+[STOPBYICOUNT] Periodic at 56700005 delta = 99997 elapsed time = 00:11:49
+[STOPBYICOUNT] Periodic at 56800002 delta = 99997 elapsed time = 00:11:53
+[STOPBYICOUNT] Periodic at 56900002 delta = 100000 elapsed time = 00:11:55
+[STOPBYICOUNT] Periodic at 57000015 delta = 100013 elapsed time = 00:11:57
+[STOPBYICOUNT] Periodic at 57100012 delta = 99997 elapsed time = 00:11:58
+[STOPBYICOUNT] Periodic at 57200009 delta = 99997 elapsed time = 00:12:00
+[STOPBYICOUNT] Periodic at 57300006 delta = 99997 elapsed time = 00:12:02
+[STOPBYICOUNT] Periodic at 57400003 delta = 99997 elapsed time = 00:12:04
+[STOPBYICOUNT] Periodic at 57500003 delta = 100000 elapsed time = 00:12:06
+[STOPBYICOUNT] Periodic at 57600016 delta = 100013 elapsed time = 00:12:09
+[STOPBYICOUNT] Periodic at 57700013 delta = 99997 elapsed time = 00:12:11
+[STOPBYICOUNT] Periodic at 57800010 delta = 99997 elapsed time = 00:12:13
+[STOPBYICOUNT] Periodic at 57900007 delta = 99997 elapsed time = 00:12:16
+[STOPBYICOUNT] Periodic at 58000004 delta = 99997 elapsed time = 00:12:19
+[STOPBYICOUNT] Periodic at 58100001 delta = 99997 elapsed time = 00:12:22
+[STOPBYICOUNT] Periodic at 58200001 delta = 100000 elapsed time = 00:12:26
+[STOPBYICOUNT] Periodic at 58300014 delta = 100013 elapsed time = 00:12:29
+[STOPBYICOUNT] Periodic at 58400011 delta = 99997 elapsed time = 00:12:33
+[STOPBYICOUNT] Periodic at 58500008 delta = 99997 elapsed time = 00:12:36
+[STOPBYICOUNT] Periodic at 58600005 delta = 99997 elapsed time = 00:12:40
+[STOPBYICOUNT] Periodic at 58700002 delta = 99997 elapsed time = 00:12:44
+[STOPBYICOUNT] Periodic at 58800002 delta = 100000 elapsed time = 00:12:46
+[STOPBYICOUNT] Periodic at 58900015 delta = 100013 elapsed time = 00:12:48
+[STOPBYICOUNT] Periodic at 59000012 delta = 99997 elapsed time = 00:12:51
+[STOPBYICOUNT] Periodic at 59100009 delta = 99997 elapsed time = 00:12:53
+[STOPBYICOUNT] Periodic at 59200006 delta = 99997 elapsed time = 00:12:56
+[STOPBYICOUNT] Periodic at 59300003 delta = 99997 elapsed time = 00:12:58
+[STOPBYICOUNT] Periodic at 59400003 delta = 100000 elapsed time = 00:13:01
+[STOPBYICOUNT] Periodic at 59500016 delta = 100013 elapsed time = 00:13:04
+[STOPBYICOUNT] Periodic at 59600013 delta = 99997 elapsed time = 00:13:09
+[STOPBYICOUNT] Periodic at 59700010 delta = 99997 elapsed time = 00:13:12
+[STOPBYICOUNT] Periodic at 59800007 delta = 99997 elapsed time = 00:13:15
+[STOPBYICOUNT] Periodic at 59900004 delta = 99997 elapsed time = 00:13:18
+[STOPBYICOUNT] Periodic at 60000001 delta = 99997 elapsed time = 00:13:20
+[STOPBYICOUNT] Periodic at 60100001 delta = 100000 elapsed time = 00:13:25
+[STOPBYICOUNT] Periodic at 60200014 delta = 100013 elapsed time = 00:13:28
+[STOPBYICOUNT] Periodic at 60300011 delta = 99997 elapsed time = 00:13:30
+[STOPBYICOUNT] Periodic at 60400008 delta = 99997 elapsed time = 00:13:33
+[STOPBYICOUNT] Periodic at 60500005 delta = 99997 elapsed time = 00:13:35
+[STOPBYICOUNT] Periodic at 60600002 delta = 99997 elapsed time = 00:13:38
+[STOPBYICOUNT] Periodic at 60700002 delta = 100000 elapsed time = 00:13:40
+[STOPBYICOUNT] Periodic at 60800015 delta = 100013 elapsed time = 00:13:42
+[STOPBYICOUNT] Periodic at 60900012 delta = 99997 elapsed time = 00:13:44
+[STOPBYICOUNT] Periodic at 61000009 delta = 99997 elapsed time = 00:13:47
+[STOPBYICOUNT] Periodic at 61100006 delta = 99997 elapsed time = 00:13:50
+[STOPBYICOUNT] Periodic at 61200003 delta = 99997 elapsed time = 00:13:52
+[STOPBYICOUNT] Periodic at 61300003 delta = 100000 elapsed time = 00:13:55
+[STOPBYICOUNT] Periodic at 61400016 delta = 100013 elapsed time = 00:13:56
+[STOPBYICOUNT] Periodic at 61500013 delta = 99997 elapsed time = 00:13:57
+[STOPBYICOUNT] Periodic at 61600010 delta = 99997 elapsed time = 00:13:58
+[STOPBYICOUNT] Periodic at 61700007 delta = 99997 elapsed time = 00:14:00
+[STOPBYICOUNT] Periodic at 61800004 delta = 99997 elapsed time = 00:14:02
+[STOPBYICOUNT] Periodic at 61900001 delta = 99997 elapsed time = 00:14:03
+[STOPBYICOUNT] Periodic at 62000001 delta = 100000 elapsed time = 00:14:04
+[STOPBYICOUNT] Periodic at 62100014 delta = 100013 elapsed time = 00:14:05
+[STOPBYICOUNT] Periodic at 62200011 delta = 99997 elapsed time = 00:14:06
+[STOPBYICOUNT] Periodic at 62300008 delta = 99997 elapsed time = 00:14:06
+[STOPBYICOUNT] Periodic at 62400005 delta = 99997 elapsed time = 00:14:07
+[STOPBYICOUNT] Periodic at 62500002 delta = 99997 elapsed time = 00:14:11
+[STOPBYICOUNT] Periodic at 62600002 delta = 100000 elapsed time = 00:14:14
+[STOPBYICOUNT] Periodic at 62700015 delta = 100013 elapsed time = 00:14:18
+[STOPBYICOUNT] Periodic at 62800012 delta = 99997 elapsed time = 00:14:21
+[STOPBYICOUNT] Periodic at 62900009 delta = 99997 elapsed time = 00:14:24
+[STOPBYICOUNT] Periodic at 63000006 delta = 99997 elapsed time = 00:14:27
+[STOPBYICOUNT] Periodic at 63100003 delta = 99997 elapsed time = 00:14:30
+[STOPBYICOUNT] Periodic at 63200003 delta = 100000 elapsed time = 00:14:32
+[STOPBYICOUNT] Periodic at 63300016 delta = 100013 elapsed time = 00:14:34
+[STOPBYICOUNT] Periodic at 63400013 delta = 99997 elapsed time = 00:14:36
+[STOPBYICOUNT] Periodic at 63500010 delta = 99997 elapsed time = 00:14:38
+[STOPBYICOUNT] Periodic at 63600007 delta = 99997 elapsed time = 00:14:40
+[STOPBYICOUNT] Periodic at 63700004 delta = 99997 elapsed time = 00:14:42
+[STOPBYICOUNT] Periodic at 63800001 delta = 99997 elapsed time = 00:14:44
+[STOPBYICOUNT] Periodic at 63900001 delta = 100000 elapsed time = 00:14:47
+[STOPBYICOUNT] Periodic at 64000014 delta = 100013 elapsed time = 00:14:47
+[STOPBYICOUNT] Periodic at 64100011 delta = 99997 elapsed time = 00:14:48
+[STOPBYICOUNT] Periodic at 64200008 delta = 99997 elapsed time = 00:14:49
+[STOPBYICOUNT] Periodic at 64300005 delta = 99997 elapsed time = 00:14:50
+[STOPBYICOUNT] Periodic at 64400002 delta = 99997 elapsed time = 00:14:53
+[STOPBYICOUNT] Periodic at 64500002 delta = 100000 elapsed time = 00:14:56
+[STOPBYICOUNT] Periodic at 64600015 delta = 100013 elapsed time = 00:14:59
+[STOPBYICOUNT] Periodic at 64700012 delta = 99997 elapsed time = 00:15:01
+[STOPBYICOUNT] Periodic at 64800009 delta = 99997 elapsed time = 00:15:02
+[STOPBYICOUNT] Periodic at 64900006 delta = 99997 elapsed time = 00:15:04
+[STOPBYICOUNT] Periodic at 65000003 delta = 99997 elapsed time = 00:15:07
+[STOPBYICOUNT] Periodic at 65100003 delta = 100000 elapsed time = 00:15:09
+[STOPBYICOUNT] Periodic at 65200016 delta = 100013 elapsed time = 00:15:11
+[STOPBYICOUNT] Periodic at 65300013 delta = 99997 elapsed time = 00:15:12
+[STOPBYICOUNT] Periodic at 65400010 delta = 99997 elapsed time = 00:15:15
+[STOPBYICOUNT] Periodic at 65500007 delta = 99997 elapsed time = 00:15:17
+[STOPBYICOUNT] Periodic at 65600004 delta = 99997 elapsed time = 00:15:20
+[STOPBYICOUNT] Periodic at 65700001 delta = 99997 elapsed time = 00:15:22
+[STOPBYICOUNT] Periodic at 65800001 delta = 100000 elapsed time = 00:15:24
+[STOPBYICOUNT] Periodic at 65900014 delta = 100013 elapsed time = 00:15:27
+[STOPBYICOUNT] Periodic at 66000011 delta = 99997 elapsed time = 00:15:29
+[STOPBYICOUNT] Periodic at 66100008 delta = 99997 elapsed time = 00:15:30
+[STOPBYICOUNT] Periodic at 66200005 delta = 99997 elapsed time = 00:15:33
+[STOPBYICOUNT] Periodic at 66300002 delta = 99997 elapsed time = 00:15:35
+[STOPBYICOUNT] Periodic at 66400002 delta = 100000 elapsed time = 00:15:37
+[STOPBYICOUNT] Periodic at 66500015 delta = 100013 elapsed time = 00:15:39
+[STOPBYICOUNT] Periodic at 66600012 delta = 99997 elapsed time = 00:15:43
+[STOPBYICOUNT] Periodic at 66700009 delta = 99997 elapsed time = 00:15:47
+[STOPBYICOUNT] Periodic at 66800006 delta = 99997 elapsed time = 00:15:50
+[STOPBYICOUNT] Periodic at 66900003 delta = 99997 elapsed time = 00:15:54
+[STOPBYICOUNT] Periodic at 67000003 delta = 100000 elapsed time = 00:15:57
+[STOPBYICOUNT] Periodic at 67100016 delta = 100013 elapsed time = 00:15:59
+[STOPBYICOUNT] Periodic at 67200013 delta = 99997 elapsed time = 00:16:01
+[STOPBYICOUNT] Periodic at 67300010 delta = 99997 elapsed time = 00:16:03
+[STOPBYICOUNT] Periodic at 67400007 delta = 99997 elapsed time = 00:16:07
+[STOPBYICOUNT] Periodic at 67500004 delta = 99997 elapsed time = 00:16:10
+[STOPBYICOUNT] Periodic at 67600001 delta = 99997 elapsed time = 00:16:13
+[STOPBYICOUNT] Periodic at 67700001 delta = 100000 elapsed time = 00:16:14
+[STOPBYICOUNT] Periodic at 67800014 delta = 100013 elapsed time = 00:16:16
+[STOPBYICOUNT] Periodic at 67900011 delta = 99997 elapsed time = 00:16:18
+[STOPBYICOUNT] Periodic at 68000008 delta = 99997 elapsed time = 00:16:20
+[STOPBYICOUNT] Periodic at 68100005 delta = 99997 elapsed time = 00:16:23
+[STOPBYICOUNT] Periodic at 68200002 delta = 99997 elapsed time = 00:16:25
+[STOPBYICOUNT] Periodic at 68300002 delta = 100000 elapsed time = 00:16:27
+[STOPBYICOUNT] Periodic at 68400015 delta = 100013 elapsed time = 00:16:30
+[STOPBYICOUNT] Periodic at 68500012 delta = 99997 elapsed time = 00:16:31
+[STOPBYICOUNT] Periodic at 68600009 delta = 99997 elapsed time = 00:16:33
+[STOPBYICOUNT] Periodic at 68700006 delta = 99997 elapsed time = 00:16:35
+[STOPBYICOUNT] Periodic at 68800003 delta = 99997 elapsed time = 00:16:38
+[STOPBYICOUNT] Periodic at 68900003 delta = 100000 elapsed time = 00:16:40
+[STOPBYICOUNT] Periodic at 69000016 delta = 100013 elapsed time = 00:16:43
+[STOPBYICOUNT] Periodic at 69100013 delta = 99997 elapsed time = 00:16:45
+[STOPBYICOUNT] Periodic at 69200010 delta = 99997 elapsed time = 00:16:47
+[STOPBYICOUNT] Periodic at 69300007 delta = 99997 elapsed time = 00:16:48
+[STOPBYICOUNT] Periodic at 69400004 delta = 99997 elapsed time = 00:16:49
+[STOPBYICOUNT] Periodic at 69500001 delta = 99997 elapsed time = 00:16:51
+[STOPBYICOUNT] Periodic at 69600001 delta = 100000 elapsed time = 00:16:53
+[STOPBYICOUNT] Periodic at 69700014 delta = 100013 elapsed time = 00:16:55
+[STOPBYICOUNT] Periodic at 69800011 delta = 99997 elapsed time = 00:16:56
+[STOPBYICOUNT] Periodic at 69900008 delta = 99997 elapsed time = 00:16:58
+[STOPBYICOUNT] Periodic at 70000005 delta = 99997 elapsed time = 00:16:59
+[STOPBYICOUNT] Periodic at 70100002 delta = 99997 elapsed time = 00:17:01
+[STOPBYICOUNT] Periodic at 70200002 delta = 100000 elapsed time = 00:17:02
+[STOPBYICOUNT] Periodic at 70300015 delta = 100013 elapsed time = 00:17:04
+[STOPBYICOUNT] Periodic at 70400012 delta = 99997 elapsed time = 00:17:06
+[STOPBYICOUNT] Periodic at 70500009 delta = 99997 elapsed time = 00:17:07
+[STOPBYICOUNT] Periodic at 70600006 delta = 99997 elapsed time = 00:17:09
+[STOPBYICOUNT] Periodic at 70700003 delta = 99997 elapsed time = 00:17:11
+[STOPBYICOUNT] Periodic at 70800003 delta = 100000 elapsed time = 00:17:13
+[STOPBYICOUNT] Periodic at 70900016 delta = 100013 elapsed time = 00:17:16
+[STOPBYICOUNT] Periodic at 71000013 delta = 99997 elapsed time = 00:17:20
+[STOPBYICOUNT] Periodic at 71100010 delta = 99997 elapsed time = 00:17:23
+[STOPBYICOUNT] Periodic at 71200007 delta = 99997 elapsed time = 00:17:25
+[STOPBYICOUNT] Periodic at 71300004 delta = 99997 elapsed time = 00:17:28
+[STOPBYICOUNT] Periodic at 71400001 delta = 99997 elapsed time = 00:17:31
+[STOPBYICOUNT] Periodic at 71500001 delta = 100000 elapsed time = 00:17:33
+[STOPBYICOUNT] Periodic at 71600014 delta = 100013 elapsed time = 00:17:36
+[STOPBYICOUNT] Periodic at 71700011 delta = 99997 elapsed time = 00:17:38
+[STOPBYICOUNT] Periodic at 71800008 delta = 99997 elapsed time = 00:17:40
+[STOPBYICOUNT] Periodic at 71900005 delta = 99997 elapsed time = 00:17:42
+[STOPBYICOUNT] Periodic at 72000002 delta = 99997 elapsed time = 00:17:45
+[STOPBYICOUNT] Periodic at 72100002 delta = 100000 elapsed time = 00:17:46
+[STOPBYICOUNT] Periodic at 72200015 delta = 100013 elapsed time = 00:17:47
+[STOPBYICOUNT] Periodic at 72300012 delta = 99997 elapsed time = 00:17:48
+[STOPBYICOUNT] Periodic at 72400009 delta = 99997 elapsed time = 00:17:48
+[STOPBYICOUNT] Periodic at 72500006 delta = 99997 elapsed time = 00:17:50
+[STOPBYICOUNT] Periodic at 72600003 delta = 99997 elapsed time = 00:17:54
+[STOPBYICOUNT] Periodic at 72700003 delta = 100000 elapsed time = 00:17:57
+[STOPBYICOUNT] Periodic at 72800016 delta = 100013 elapsed time = 00:17:58
+[STOPBYICOUNT] Periodic at 72900013 delta = 99997 elapsed time = 00:17:59
+[STOPBYICOUNT] Periodic at 73000010 delta = 99997 elapsed time = 00:18:00
+[STOPBYICOUNT] Periodic at 73100007 delta = 99997 elapsed time = 00:18:02
+[STOPBYICOUNT] Periodic at 73200004 delta = 99997 elapsed time = 00:18:03
+[STOPBYICOUNT] Periodic at 73300001 delta = 99997 elapsed time = 00:18:05
+[STOPBYICOUNT] Periodic at 73400001 delta = 100000 elapsed time = 00:18:08
+[STOPBYICOUNT] Periodic at 73500014 delta = 100013 elapsed time = 00:18:10
+[STOPBYICOUNT] Periodic at 73600011 delta = 99997 elapsed time = 00:18:12
+[STOPBYICOUNT] Periodic at 73700008 delta = 99997 elapsed time = 00:18:13
+[STOPBYICOUNT] Periodic at 73800005 delta = 99997 elapsed time = 00:18:14
+[STOPBYICOUNT] Periodic at 73900002 delta = 99997 elapsed time = 00:18:16
+[STOPBYICOUNT] Periodic at 74000002 delta = 100000 elapsed time = 00:18:17
+[STOPBYICOUNT] Periodic at 74100015 delta = 100013 elapsed time = 00:18:20
+[STOPBYICOUNT] Periodic at 74200012 delta = 99997 elapsed time = 00:18:23
+[STOPBYICOUNT] Periodic at 74300009 delta = 99997 elapsed time = 00:18:24
+[STOPBYICOUNT] Periodic at 74400006 delta = 99997 elapsed time = 00:18:26
+[STOPBYICOUNT] Periodic at 74500003 delta = 99997 elapsed time = 00:18:28
+[STOPBYICOUNT] Periodic at 74600003 delta = 100000 elapsed time = 00:18:30
+[STOPBYICOUNT] Periodic at 74700016 delta = 100013 elapsed time = 00:18:33
+[STOPBYICOUNT] Periodic at 74800013 delta = 99997 elapsed time = 00:18:35
+[STOPBYICOUNT] Periodic at 74900010 delta = 99997 elapsed time = 00:18:37
+[STOPBYICOUNT] Periodic at 75000007 delta = 99997 elapsed time = 00:18:38
+[STOPBYICOUNT] Periodic at 75100004 delta = 99997 elapsed time = 00:18:41
+[STOPBYICOUNT] Periodic at 75200001 delta = 99997 elapsed time = 00:18:43
+[STOPBYICOUNT] Periodic at 75300001 delta = 100000 elapsed time = 00:18:44
+[STOPBYICOUNT] Periodic at 75400014 delta = 100013 elapsed time = 00:18:45
+[STOPBYICOUNT] Periodic at 75500011 delta = 99997 elapsed time = 00:18:46
+[STOPBYICOUNT] Periodic at 75600008 delta = 99997 elapsed time = 00:18:47
+[STOPBYICOUNT] Periodic at 75700005 delta = 99997 elapsed time = 00:18:49
+[STOPBYICOUNT] Periodic at 75800002 delta = 99997 elapsed time = 00:18:51
+[STOPBYICOUNT] Periodic at 75900002 delta = 100000 elapsed time = 00:18:54
+[STOPBYICOUNT] Periodic at 76000015 delta = 100013 elapsed time = 00:18:56
+[STOPBYICOUNT] Periodic at 76100012 delta = 99997 elapsed time = 00:18:58
+[STOPBYICOUNT] Periodic at 76200009 delta = 99997 elapsed time = 00:19:01
+[STOPBYICOUNT] Periodic at 76300006 delta = 99997 elapsed time = 00:19:06
+[STOPBYICOUNT] Periodic at 76400003 delta = 99997 elapsed time = 00:19:09
+[STOPBYICOUNT] Periodic at 76500003 delta = 100000 elapsed time = 00:19:13
+[STOPBYICOUNT] Periodic at 76600016 delta = 100013 elapsed time = 00:19:18
+[STOPBYICOUNT] Periodic at 76700013 delta = 99997 elapsed time = 00:19:22
+[STOPBYICOUNT] Periodic at 76800010 delta = 99997 elapsed time = 00:19:24
+[STOPBYICOUNT] Periodic at 76900007 delta = 99997 elapsed time = 00:19:26
+[STOPBYICOUNT] Periodic at 77000004 delta = 99997 elapsed time = 00:19:28
+[STOPBYICOUNT] Periodic at 77100001 delta = 99997 elapsed time = 00:19:31
+[STOPBYICOUNT] Periodic at 77200001 delta = 100000 elapsed time = 00:19:34
+[STOPBYICOUNT] Periodic at 77300014 delta = 100013 elapsed time = 00:19:36
+[STOPBYICOUNT] Periodic at 77400011 delta = 99997 elapsed time = 00:19:38
+[STOPBYICOUNT] Periodic at 77500008 delta = 99997 elapsed time = 00:19:42
+[STOPBYICOUNT] Periodic at 77600005 delta = 99997 elapsed time = 00:19:44
+[STOPBYICOUNT] Periodic at 77700002 delta = 99997 elapsed time = 00:19:47
+[STOPBYICOUNT] Periodic at 77800002 delta = 100000 elapsed time = 00:19:51
+[STOPBYICOUNT] Periodic at 77900015 delta = 100013 elapsed time = 00:19:57
+[STOPBYICOUNT] Periodic at 78000012 delta = 99997 elapsed time = 00:20:01
+[STOPBYICOUNT] Periodic at 78100009 delta = 99997 elapsed time = 00:20:06
+[STOPBYICOUNT] Periodic at 78200006 delta = 99997 elapsed time = 00:20:09
+[STOPBYICOUNT] Periodic at 78300003 delta = 99997 elapsed time = 00:20:12
+[STOPBYICOUNT] Periodic at 78400003 delta = 100000 elapsed time = 00:20:16
+[STOPBYICOUNT] Periodic at 78500016 delta = 100013 elapsed time = 00:20:19
+[STOPBYICOUNT] Periodic at 78600013 delta = 99997 elapsed time = 00:20:23
+[STOPBYICOUNT] Periodic at 78700010 delta = 99997 elapsed time = 00:20:28
+[STOPBYICOUNT] Periodic at 78800007 delta = 99997 elapsed time = 00:20:31
+[STOPBYICOUNT] Periodic at 78900004 delta = 99997 elapsed time = 00:20:35
+[STOPBYICOUNT] Periodic at 79000001 delta = 99997 elapsed time = 00:20:39
+[STOPBYICOUNT] Periodic at 79100001 delta = 100000 elapsed time = 00:20:42
+[STOPBYICOUNT] Periodic at 79200014 delta = 100013 elapsed time = 00:20:45
+[STOPBYICOUNT] Periodic at 79300011 delta = 99997 elapsed time = 00:20:49
+[STOPBYICOUNT] Periodic at 79400008 delta = 99997 elapsed time = 00:20:53
+[STOPBYICOUNT] Periodic at 79500005 delta = 99997 elapsed time = 00:20:56
+[STOPBYICOUNT] Periodic at 79600002 delta = 99997 elapsed time = 00:20:58
+[STOPBYICOUNT] Periodic at 79700002 delta = 100000 elapsed time = 00:21:01
+[STOPBYICOUNT] Periodic at 79800015 delta = 100013 elapsed time = 00:21:03
+[STOPBYICOUNT] Periodic at 79900012 delta = 99997 elapsed time = 00:21:04
+[STOPBYICOUNT] Periodic at 80000009 delta = 99997 elapsed time = 00:21:05
+[STOPBYICOUNT] Periodic at 80100006 delta = 99997 elapsed time = 00:21:07
+[STOPBYICOUNT] Periodic at 80200003 delta = 99997 elapsed time = 00:21:10
+[STOPBYICOUNT] Periodic at 80300003 delta = 100000 elapsed time = 00:21:13
+[STOPBYICOUNT] Periodic at 80400016 delta = 100013 elapsed time = 00:21:16
+[STOPBYICOUNT] Periodic at 80500013 delta = 99997 elapsed time = 00:21:19
+[STOPBYICOUNT] Periodic at 80600010 delta = 99997 elapsed time = 00:21:22
+[STOPBYICOUNT] Periodic at 80700007 delta = 99997 elapsed time = 00:21:26
+[STOPBYICOUNT] Periodic at 80800004 delta = 99997 elapsed time = 00:21:29
+[STOPBYICOUNT] Periodic at 80900001 delta = 99997 elapsed time = 00:21:34
+[STOPBYICOUNT] Periodic at 81000001 delta = 100000 elapsed time = 00:21:37
+[STOPBYICOUNT] Periodic at 81100014 delta = 100013 elapsed time = 00:21:39
+[STOPBYICOUNT] Periodic at 81200011 delta = 99997 elapsed time = 00:21:41
+[STOPBYICOUNT] Periodic at 81300008 delta = 99997 elapsed time = 00:21:43
+[STOPBYICOUNT] Periodic at 81400005 delta = 99997 elapsed time = 00:21:46
+[STOPBYICOUNT] Periodic at 81500002 delta = 99997 elapsed time = 00:21:50
+[STOPBYICOUNT] Periodic at 81600002 delta = 100000 elapsed time = 00:21:51
+[STOPBYICOUNT] Periodic at 81700015 delta = 100013 elapsed time = 00:21:53
+[STOPBYICOUNT] Periodic at 81800012 delta = 99997 elapsed time = 00:21:57
+[STOPBYICOUNT] Periodic at 81900009 delta = 99997 elapsed time = 00:21:58
+[STOPBYICOUNT] Periodic at 82000006 delta = 99997 elapsed time = 00:22:00
+[STOPBYICOUNT] Periodic at 82100003 delta = 99997 elapsed time = 00:22:01
+[STOPBYICOUNT] Periodic at 82200003 delta = 100000 elapsed time = 00:22:02
+[STOPBYICOUNT] Periodic at 82300016 delta = 100013 elapsed time = 00:22:03
+[STOPBYICOUNT] Periodic at 82400013 delta = 99997 elapsed time = 00:22:07
+[STOPBYICOUNT] Periodic at 82500010 delta = 99997 elapsed time = 00:22:11
+[STOPBYICOUNT] Periodic at 82600007 delta = 99997 elapsed time = 00:22:13
+[STOPBYICOUNT] Periodic at 82700004 delta = 99997 elapsed time = 00:22:14
+[STOPBYICOUNT] Periodic at 82800001 delta = 99997 elapsed time = 00:22:15
+[STOPBYICOUNT] Periodic at 82900001 delta = 100000 elapsed time = 00:22:17
+[STOPBYICOUNT] Periodic at 83000014 delta = 100013 elapsed time = 00:22:19
+[STOPBYICOUNT] Periodic at 83100011 delta = 99997 elapsed time = 00:22:21
+[STOPBYICOUNT] Periodic at 83200008 delta = 99997 elapsed time = 00:22:23
+[STOPBYICOUNT] Periodic at 83300005 delta = 99997 elapsed time = 00:22:25
+[STOPBYICOUNT] Periodic at 83400002 delta = 99997 elapsed time = 00:22:27
+[STOPBYICOUNT] Periodic at 83500002 delta = 100000 elapsed time = 00:22:30
+[STOPBYICOUNT] Periodic at 83600015 delta = 100013 elapsed time = 00:22:32
+[STOPBYICOUNT] Periodic at 83700012 delta = 99997 elapsed time = 00:22:35
+[STOPBYICOUNT] Periodic at 83800009 delta = 99997 elapsed time = 00:22:37
+[STOPBYICOUNT] Periodic at 83900006 delta = 99997 elapsed time = 00:22:39
+[STOPBYICOUNT] Periodic at 84000003 delta = 99997 elapsed time = 00:22:41
+[STOPBYICOUNT] Periodic at 84100003 delta = 100000 elapsed time = 00:22:43
+[STOPBYICOUNT] Periodic at 84200016 delta = 100013 elapsed time = 00:22:47
+[STOPBYICOUNT] Periodic at 84300013 delta = 99997 elapsed time = 00:22:50
+[STOPBYICOUNT] Periodic at 84400010 delta = 99997 elapsed time = 00:22:54
+[STOPBYICOUNT] Periodic at 84500007 delta = 99997 elapsed time = 00:22:57
+[STOPBYICOUNT] Periodic at 84600004 delta = 99997 elapsed time = 00:23:00
+[STOPBYICOUNT] Periodic at 84700001 delta = 99997 elapsed time = 00:23:04
+[STOPBYICOUNT] Periodic at 84800001 delta = 100000 elapsed time = 00:23:08
+[STOPBYICOUNT] Periodic at 84900014 delta = 100013 elapsed time = 00:23:10
+[STOPBYICOUNT] Periodic at 85000011 delta = 99997 elapsed time = 00:23:11
+[STOPBYICOUNT] Periodic at 85100008 delta = 99997 elapsed time = 00:23:12
+[STOPBYICOUNT] Periodic at 85200005 delta = 99997 elapsed time = 00:23:14
+[STOPBYICOUNT] Periodic at 85300002 delta = 99997 elapsed time = 00:23:18
+[STOPBYICOUNT] Periodic at 85400002 delta = 100000 elapsed time = 00:23:21
+[STOPBYICOUNT] Periodic at 85500015 delta = 100013 elapsed time = 00:23:24
+[STOPBYICOUNT] Periodic at 85600012 delta = 99997 elapsed time = 00:23:24
+[STOPBYICOUNT] Periodic at 85700009 delta = 99997 elapsed time = 00:23:25
+[STOPBYICOUNT] Periodic at 85800006 delta = 99997 elapsed time = 00:23:26
+[STOPBYICOUNT] Periodic at 85900003 delta = 99997 elapsed time = 00:23:27
+[STOPBYICOUNT] Periodic at 86000003 delta = 100000 elapsed time = 00:23:28
+[STOPBYICOUNT] Periodic at 86100016 delta = 100013 elapsed time = 00:23:31
+[STOPBYICOUNT] Periodic at 86200013 delta = 99997 elapsed time = 00:23:34
+[STOPBYICOUNT] Periodic at 86300010 delta = 99997 elapsed time = 00:23:37
+[STOPBYICOUNT] Periodic at 86400007 delta = 99997 elapsed time = 00:23:40
+[STOPBYICOUNT] Periodic at 86500004 delta = 99997 elapsed time = 00:23:43
+[STOPBYICOUNT] Periodic at 86600001 delta = 99997 elapsed time = 00:23:47
+[STOPBYICOUNT] Periodic at 86700001 delta = 100000 elapsed time = 00:23:50
+[STOPBYICOUNT] Periodic at 86800014 delta = 100013 elapsed time = 00:23:54
+[STOPBYICOUNT] Periodic at 86900011 delta = 99997 elapsed time = 00:23:56
+[STOPBYICOUNT] Periodic at 87000008 delta = 99997 elapsed time = 00:23:58
+[STOPBYICOUNT] Periodic at 87100005 delta = 99997 elapsed time = 00:24:02
+[STOPBYICOUNT] Periodic at 87200002 delta = 99997 elapsed time = 00:24:05
+[STOPBYICOUNT] Periodic at 87300002 delta = 100000 elapsed time = 00:24:07
+[STOPBYICOUNT] Periodic at 87400015 delta = 100013 elapsed time = 00:24:10
+[STOPBYICOUNT] Periodic at 87500012 delta = 99997 elapsed time = 00:24:14
+[STOPBYICOUNT] Periodic at 87600019 delta = 100007 elapsed time = 00:24:18
+[STOPBYICOUNT] Periodic at 87700005 delta = 99986 elapsed time = 00:24:21
+[STOPBYICOUNT] Periodic at 87800017 delta = 100012 elapsed time = 00:24:22
+[STOPBYICOUNT] Periodic at 87900009 delta = 99992 elapsed time = 00:24:23
+[STOPBYICOUNT] Periodic at 88000013 delta = 100004 elapsed time = 00:24:25
+[STOPBYICOUNT] Periodic at 88100005 delta = 99992 elapsed time = 00:24:27
+[STOPBYICOUNT] Periodic at 88200002 delta = 99997 elapsed time = 00:24:30
+[STOPBYICOUNT] Periodic at 88300001 delta = 99999 elapsed time = 00:24:33
+[STOPBYICOUNT] Periodic at 88400010 delta = 100009 elapsed time = 00:24:34
+[STOPBYICOUNT] Periodic at 88500003 delta = 99993 elapsed time = 00:24:35
+[STOPBYICOUNT] Periodic at 88600002 delta = 99999 elapsed time = 00:24:35
+[STOPBYICOUNT] Periodic at 88700001 delta = 99999 elapsed time = 00:24:36
+[STOPBYICOUNT] Periodic at 88800005 delta = 100004 elapsed time = 00:24:38
+[STOPBYICOUNT] Periodic at 88900003 delta = 99998 elapsed time = 00:24:40
+[STOPBYICOUNT] Periodic at 89000003 delta = 100000 elapsed time = 00:24:41
+[STOPBYICOUNT] Periodic at 89100009 delta = 100006 elapsed time = 00:24:44
+[STOPBYICOUNT] Periodic at 89200002 delta = 99993 elapsed time = 00:24:48
+[STOPBYICOUNT] Periodic at 89300001 delta = 99999 elapsed time = 00:24:50
+[STOPBYICOUNT] Periodic at 89400001 delta = 100000 elapsed time = 00:24:52
+[STOPBYICOUNT] Periodic at 89500009 delta = 100008 elapsed time = 00:24:54
+[STOPBYICOUNT] Periodic at 89600006 delta = 99997 elapsed time = 00:24:56
+[STOPBYICOUNT] Periodic at 89700017 delta = 100011 elapsed time = 00:25:00
+[STOPBYICOUNT] Periodic at 89800009 delta = 99992 elapsed time = 00:25:04
+[STOPBYICOUNT] Periodic at 89900002 delta = 99993 elapsed time = 00:25:08
+[STOPBYICOUNT] Periodic at 90000019 delta = 100017 elapsed time = 00:25:11
+[STOPBYICOUNT] Periodic at 90100011 delta = 99992 elapsed time = 00:25:16
+[STOPBYICOUNT] Periodic at 90200002 delta = 99991 elapsed time = 00:25:20
+[STOPBYICOUNT] Periodic at 90300008 delta = 100006 elapsed time = 00:25:23
+[STOPBYICOUNT] Periodic at 90400001 delta = 99993 elapsed time = 00:25:25
+[STOPBYICOUNT] Periodic at 90500002 delta = 100001 elapsed time = 00:25:28
+[STOPBYICOUNT] Periodic at 90600003 delta = 100001 elapsed time = 00:25:31
+[STOPBYICOUNT] Periodic at 90700003 delta = 100000 elapsed time = 00:25:32
+[STOPBYICOUNT] Periodic at 90800001 delta = 99998 elapsed time = 00:25:34
+[STOPBYICOUNT] Periodic at 90900016 delta = 100015 elapsed time = 00:25:38
+[STOPBYICOUNT] Periodic at 91000010 delta = 99994 elapsed time = 00:25:41
+[STOPBYICOUNT] Periodic at 91100008 delta = 99998 elapsed time = 00:25:42
+[STOPBYICOUNT] Periodic at 91200002 delta = 99994 elapsed time = 00:25:42
+[STOPBYICOUNT] Periodic at 91300005 delta = 100003 elapsed time = 00:25:43
+[STOPBYICOUNT] Periodic at 91400004 delta = 99999 elapsed time = 00:25:45
+[STOPBYICOUNT] Periodic at 91500001 delta = 99997 elapsed time = 00:25:47
+[STOPBYICOUNT] Periodic at 91600003 delta = 100002 elapsed time = 00:25:49
+[STOPBYICOUNT] Periodic at 91700004 delta = 100001 elapsed time = 00:25:51
+[STOPBYICOUNT] Periodic at 91800001 delta = 99997 elapsed time = 00:25:53
+[STOPBYICOUNT] Periodic at 91900001 delta = 100000 elapsed time = 00:25:57
+[STOPBYICOUNT] Periodic at 92000008 delta = 100007 elapsed time = 00:26:01
+[STOPBYICOUNT] Periodic at 92100001 delta = 99993 elapsed time = 00:26:02
+[STOPBYICOUNT] Periodic at 92200018 delta = 100017 elapsed time = 00:26:03
+[STOPBYICOUNT] Periodic at 92300010 delta = 99992 elapsed time = 00:26:05
+[STOPBYICOUNT] Periodic at 92400007 delta = 99997 elapsed time = 00:26:08
+[STOPBYICOUNT] Periodic at 92500004 delta = 99997 elapsed time = 00:26:11
+[STOPBYICOUNT] Periodic at 92600015 delta = 100011 elapsed time = 00:26:14
+[STOPBYICOUNT] Periodic at 92700007 delta = 99992 elapsed time = 00:26:17
+[STOPBYICOUNT] Periodic at 92800002 delta = 99995 elapsed time = 00:26:20
+[STOPBYICOUNT] Periodic at 92900002 delta = 100000 elapsed time = 00:26:25
+[STOPBYICOUNT] Periodic at 93000003 delta = 100001 elapsed time = 00:26:28
+[STOPBYICOUNT] Periodic at 93100006 delta = 100003 elapsed time = 00:26:31
+[STOPBYICOUNT] Periodic at 93200006 delta = 100000 elapsed time = 00:26:34
+[STOPBYICOUNT] Periodic at 93300007 delta = 100001 elapsed time = 00:26:37
+[STOPBYICOUNT] Periodic at 93400003 delta = 99996 elapsed time = 00:26:40
+[STOPBYICOUNT] Periodic at 93500001 delta = 99998 elapsed time = 00:26:43
+[STOPBYICOUNT] Periodic at 93600001 delta = 100000 elapsed time = 00:26:43
+[STOPBYICOUNT] Periodic at 93700007 delta = 100006 elapsed time = 00:26:44
+[STOPBYICOUNT] Periodic at 93800003 delta = 99996 elapsed time = 00:26:46
+[STOPBYICOUNT] Periodic at 93900001 delta = 99998 elapsed time = 00:26:51
+[STOPBYICOUNT] Periodic at 94000009 delta = 100008 elapsed time = 00:26:54
+[STOPBYICOUNT] Periodic at 94100001 delta = 99992 elapsed time = 00:26:55
+[STOPBYICOUNT] Periodic at 94200001 delta = 100000 elapsed time = 00:26:58
+[STOPBYICOUNT] Periodic at 94300001 delta = 100000 elapsed time = 00:27:01
+[STOPBYICOUNT] Periodic at 94400006 delta = 100005 elapsed time = 00:27:04
+[STOPBYICOUNT] Periodic at 94500002 delta = 99996 elapsed time = 00:27:06
+[STOPBYICOUNT] Periodic at 94600001 delta = 99999 elapsed time = 00:27:07
+[STOPBYICOUNT] Periodic at 94700005 delta = 100004 elapsed time = 00:27:09
+[STOPBYICOUNT] Periodic at 94800002 delta = 99997 elapsed time = 00:27:14
+[STOPBYICOUNT] Periodic at 94900015 delta = 100013 elapsed time = 00:27:15
+[STOPBYICOUNT] Periodic at 95000007 delta = 99992 elapsed time = 00:27:16
+[STOPBYICOUNT] Periodic at 95100004 delta = 99997 elapsed time = 00:27:17
+[STOPBYICOUNT] Periodic at 95200001 delta = 99997 elapsed time = 00:27:18
+[STOPBYICOUNT] Periodic at 95300012 delta = 100011 elapsed time = 00:27:19
+[STOPBYICOUNT] Periodic at 95400001 delta = 99989 elapsed time = 00:27:20
+[STOPBYICOUNT] Periodic at 95500002 delta = 100001 elapsed time = 00:27:23
+[STOPBYICOUNT] Periodic at 95600002 delta = 100000 elapsed time = 00:27:26
+[STOPBYICOUNT] Periodic at 95700005 delta = 100003 elapsed time = 00:27:29
+[STOPBYICOUNT] Periodic at 95800003 delta = 99998 elapsed time = 00:27:31
+[STOPBYICOUNT] Periodic at 95900003 delta = 100000 elapsed time = 00:27:34
+[STOPBYICOUNT] Periodic at 96000004 delta = 100001 elapsed time = 00:27:38
+[STOPBYICOUNT] Periodic at 96100005 delta = 100001 elapsed time = 00:27:40
+[STOPBYICOUNT] Periodic at 96200001 delta = 99996 elapsed time = 00:27:43
+[STOPBYICOUNT] Periodic at 96300003 delta = 100002 elapsed time = 00:27:47
+[STOPBYICOUNT] Periodic at 96400004 delta = 100001 elapsed time = 00:27:50
+[STOPBYICOUNT] Periodic at 96500004 delta = 100000 elapsed time = 00:27:53
+[STOPBYICOUNT] Periodic at 96600007 delta = 100003 elapsed time = 00:27:56
+[STOPBYICOUNT] Periodic at 96700006 delta = 99999 elapsed time = 00:28:00
+[STOPBYICOUNT] Periodic at 96800003 delta = 99997 elapsed time = 00:28:04
+[STOPBYICOUNT] Periodic at 96900002 delta = 99999 elapsed time = 00:28:06
+[STOPBYICOUNT] Periodic at 97000002 delta = 100000 elapsed time = 00:28:08
+[STOPBYICOUNT] Periodic at 97100003 delta = 100001 elapsed time = 00:28:11
+[STOPBYICOUNT] Periodic at 97200018 delta = 100015 elapsed time = 00:28:13
+[STOPBYICOUNT] Periodic at 97300010 delta = 99992 elapsed time = 00:28:15
+[STOPBYICOUNT] Periodic at 97400003 delta = 99993 elapsed time = 00:28:15
+[STOPBYICOUNT] Periodic at 97500020 delta = 100017 elapsed time = 00:28:17
+[STOPBYICOUNT] Periodic at 97600001 delta = 99981 elapsed time = 00:28:20
+[STOPBYICOUNT] Periodic at 97700009 delta = 100008 elapsed time = 00:28:21
+[STOPBYICOUNT] Periodic at 97800006 delta = 99997 elapsed time = 00:28:22
+[STOPBYICOUNT] Periodic at 97900017 delta = 100011 elapsed time = 00:28:23
+[STOPBYICOUNT] Periodic at 98000009 delta = 99992 elapsed time = 00:28:25
+[STOPBYICOUNT] Periodic at 98100004 delta = 99995 elapsed time = 00:28:28
+[STOPBYICOUNT] Periodic at 98200004 delta = 100000 elapsed time = 00:28:31
+[STOPBYICOUNT] Periodic at 98300002 delta = 99998 elapsed time = 00:28:36
+[STOPBYICOUNT] Periodic at 98400002 delta = 100000 elapsed time = 00:28:37
+[STOPBYICOUNT] Periodic at 98500008 delta = 100006 elapsed time = 00:28:37
+[STOPBYICOUNT] Periodic at 98600001 delta = 99993 elapsed time = 00:28:38
+[STOPBYICOUNT] Periodic at 98700002 delta = 100001 elapsed time = 00:28:39
+[STOPBYICOUNT] Periodic at 98800003 delta = 100001 elapsed time = 00:28:41
+[STOPBYICOUNT] Periodic at 98900004 delta = 100001 elapsed time = 00:28:43
+[STOPBYICOUNT] Periodic at 99000009 delta = 100005 elapsed time = 00:28:46
+[STOPBYICOUNT] Periodic at 99100001 delta = 99992 elapsed time = 00:28:48
+[STOPBYICOUNT] Periodic at 99200003 delta = 100002 elapsed time = 00:28:51
+[STOPBYICOUNT] Periodic at 99300011 delta = 100008 elapsed time = 00:28:55
+[STOPBYICOUNT] Periodic at 99400003 delta = 99992 elapsed time = 00:28:57
+[STOPBYICOUNT] Periodic at 99500001 delta = 99998 elapsed time = 00:28:58
+[STOPBYICOUNT] Periodic at 99600005 delta = 100004 elapsed time = 00:29:01
+[STOPBYICOUNT] Periodic at 99700002 delta = 99997 elapsed time = 00:29:04
+[STOPBYICOUNT] Periodic at 99800001 delta = 99999 elapsed time = 00:29:07
+[STOPBYICOUNT] Periodic at 99900001 delta = 100000 elapsed time = 00:29:10
+[STOPBYICOUNT] Periodic at 100000006 delta = 100005 elapsed time = 00:29:13
+[STOPBYICOUNT] Periodic at 100100002 delta = 99996 elapsed time = 00:29:15
+[STOPBYICOUNT] Periodic at 100200001 delta = 99999 elapsed time = 00:29:19
+[STOPBYICOUNT] Periodic at 100300008 delta = 100007 elapsed time = 00:29:22
+[STOPBYICOUNT] Periodic at 100400005 delta = 99997 elapsed time = 00:29:25
+[STOPBYICOUNT] Periodic at 100500004 delta = 99999 elapsed time = 00:29:28
+[STOPBYICOUNT] Periodic at 100600004 delta = 100000 elapsed time = 00:29:32
+[STOPBYICOUNT] Periodic at 100700009 delta = 100005 elapsed time = 00:29:35
+[STOPBYICOUNT] Periodic at 100800002 delta = 99993 elapsed time = 00:29:39
+[STOPBYICOUNT] Periodic at 100900012 delta = 100010 elapsed time = 00:29:42
+[STOPBYICOUNT] Periodic at 101000005 delta = 99993 elapsed time = 00:29:47
+[STOPBYICOUNT] Periodic at 101100022 delta = 100017 elapsed time = 00:29:51
+[STOPBYICOUNT] Periodic at 101200001 delta = 99979 elapsed time = 00:29:54
+[STOPBYICOUNT] Periodic at 101300011 delta = 100010 elapsed time = 00:29:58
+[STOPBYICOUNT] Periodic at 101400008 delta = 99997 elapsed time = 00:30:03
+[STOPBYICOUNT] Periodic at 101500001 delta = 99993 elapsed time = 00:30:04
+[STOPBYICOUNT] Periodic at 101600003 delta = 100002 elapsed time = 00:30:06
+[STOPBYICOUNT] Periodic at 101700002 delta = 99999 elapsed time = 00:30:08
+[STOPBYICOUNT] Periodic at 101800003 delta = 100001 elapsed time = 00:30:11
+[STOPBYICOUNT] Periodic at 101900003 delta = 100000 elapsed time = 00:30:13
+[STOPBYICOUNT] Periodic at 102000007 delta = 100004 elapsed time = 00:30:16
+[STOPBYICOUNT] Periodic at 102100002 delta = 99995 elapsed time = 00:30:20
+[STOPBYICOUNT] Periodic at 102200003 delta = 100001 elapsed time = 00:30:23
+[STOPBYICOUNT] Periodic at 102300009 delta = 100006 elapsed time = 00:30:25
+[STOPBYICOUNT] Periodic at 102400015 delta = 100006 elapsed time = 00:30:25
+[STOPBYICOUNT] Periodic at 102500007 delta = 99992 elapsed time = 00:30:26
+[STOPBYICOUNT] Periodic at 102600002 delta = 99995 elapsed time = 00:30:29
+[STOPBYICOUNT] Periodic at 102700017 delta = 100015 elapsed time = 00:30:30
+[STOPBYICOUNT] Periodic at 102800009 delta = 99992 elapsed time = 00:30:31
+[STOPBYICOUNT] Periodic at 102900006 delta = 99997 elapsed time = 00:30:33
+[STOPBYICOUNT] Periodic at 103000003 delta = 99997 elapsed time = 00:30:34
+[STOPBYICOUNT] Periodic at 103100014 delta = 100011 elapsed time = 00:30:35
+[STOPBYICOUNT] Periodic at 103200003 delta = 99989 elapsed time = 00:30:37
+[STOPBYICOUNT] Periodic at 103300001 delta = 99998 elapsed time = 00:30:40
+[STOPBYICOUNT] Periodic at 103400001 delta = 100000 elapsed time = 00:30:42
+[STOPBYICOUNT] Periodic at 103500002 delta = 100001 elapsed time = 00:30:46
+[STOPBYICOUNT] Periodic at 103600005 delta = 100003 elapsed time = 00:30:49
+[STOPBYICOUNT] Periodic at 103700005 delta = 100000 elapsed time = 00:30:52
+[STOPBYICOUNT] Periodic at 103800006 delta = 100001 elapsed time = 00:30:56
+[STOPBYICOUNT] Periodic at 103900002 delta = 99996 elapsed time = 00:31:00
+[STOPBYICOUNT] Periodic at 104000003 delta = 100001 elapsed time = 00:31:05
+[STOPBYICOUNT] Periodic at 104100001 delta = 99998 elapsed time = 00:31:05
+[STOPBYICOUNT] Periodic at 104200006 delta = 100005 elapsed time = 00:31:06
+[STOPBYICOUNT] Periodic at 104300002 delta = 99996 elapsed time = 00:31:07
+[STOPBYICOUNT] Periodic at 104400001 delta = 99999 elapsed time = 00:31:08
+[STOPBYICOUNT] Periodic at 104500008 delta = 100007 elapsed time = 00:31:58
+[STOPBYICOUNT] Periodic at 104600005 delta = 99997 elapsed time = 00:32:05
+[STOPBYICOUNT] Periodic at 104700004 delta = 99999 elapsed time = 00:32:07
+[STOPBYICOUNT] Periodic at 104800004 delta = 100000 elapsed time = 00:32:11
+[STOPBYICOUNT] Periodic at 104900005 delta = 100001 elapsed time = 00:32:16
+[STOPBYICOUNT] Periodic at 105000002 delta = 99997 elapsed time = 00:32:21
+[STOPBYICOUNT] Periodic at 105100012 delta = 100010 elapsed time = 00:32:23
+[STOPBYICOUNT] Periodic at 105200005 delta = 99993 elapsed time = 00:32:27
+[STOPBYICOUNT] Periodic at 105300022 delta = 100017 elapsed time = 00:32:29
+[STOPBYICOUNT] Periodic at 105400001 delta = 99979 elapsed time = 00:32:32
+[STOPBYICOUNT] Periodic at 105500011 delta = 100010 elapsed time = 00:32:35
+[STOPBYICOUNT] Periodic at 105600008 delta = 99997 elapsed time = 00:32:39
+[STOPBYICOUNT] Periodic at 105700001 delta = 99993 elapsed time = 00:32:42
+[STOPBYICOUNT] Periodic at 105800011 delta = 100010 elapsed time = 00:32:45
+[STOPBYICOUNT] Periodic at 105900002 delta = 99991 elapsed time = 00:32:48
+[STOPBYICOUNT] Periodic at 106000006 delta = 100004 elapsed time = 00:32:51
+[STOPBYICOUNT] Periodic at 106100004 delta = 99998 elapsed time = 00:32:54
+[STOPBYICOUNT] Periodic at 106200004 delta = 100000 elapsed time = 00:32:58
+[STOPBYICOUNT] Periodic at 106300010 delta = 100006 elapsed time = 00:33:06
+[STOPBYICOUNT] Periodic at 106400003 delta = 99993 elapsed time = 00:33:10
+[STOPBYICOUNT] Periodic at 106500002 delta = 99999 elapsed time = 00:33:13
+[STOPBYICOUNT] Periodic at 106600001 delta = 99999 elapsed time = 00:33:15
+[STOPBYICOUNT] Periodic at 106700005 delta = 100004 elapsed time = 00:33:18
+[STOPBYICOUNT] Periodic at 106800011 delta = 100006 elapsed time = 00:33:22
+[STOPBYICOUNT] Periodic at 106900003 delta = 99992 elapsed time = 00:33:24
+[STOPBYICOUNT] Periodic at 107000005 delta = 100002 elapsed time = 00:33:27
+[STOPBYICOUNT] Periodic at 107100013 delta = 100008 elapsed time = 00:33:29
+[STOPBYICOUNT] Periodic at 107200005 delta = 99992 elapsed time = 00:33:31
+[STOPBYICOUNT] Periodic at 107300002 delta = 99997 elapsed time = 00:33:34
+[STOPBYICOUNT] Periodic at 107400001 delta = 99999 elapsed time = 00:33:37
+[STOPBYICOUNT] Periodic at 107500003 delta = 100002 elapsed time = 00:33:40
+[STOPBYICOUNT] Periodic at 107600003 delta = 100000 elapsed time = 00:33:43
+[STOPBYICOUNT] Periodic at 107700003 delta = 100000 elapsed time = 00:33:46
+[STOPBYICOUNT] Periodic at 107800008 delta = 100005 elapsed time = 00:33:48
+[STOPBYICOUNT] Periodic at 107900004 delta = 99996 elapsed time = 00:33:50
+[STOPBYICOUNT] Periodic at 108000002 delta = 99998 elapsed time = 00:33:53
+[STOPBYICOUNT] Periodic at 108100010 delta = 100008 elapsed time = 00:33:55
+[STOPBYICOUNT] Periodic at 108200002 delta = 99992 elapsed time = 00:33:59
+[STOPBYICOUNT] Periodic at 108300002 delta = 100000 elapsed time = 00:34:03
+[STOPBYICOUNT] Periodic at 108400002 delta = 100000 elapsed time = 00:34:07
+[STOPBYICOUNT] Periodic at 108500002 delta = 100000 elapsed time = 00:34:09
+[STOPBYICOUNT] Periodic at 108600001 delta = 99999 elapsed time = 00:34:10
+[STOPBYICOUNT] Periodic at 108700002 delta = 100001 elapsed time = 00:34:11
+[STOPBYICOUNT] Periodic at 108800002 delta = 100000 elapsed time = 00:34:12
+[STOPBYICOUNT] Periodic at 108900024 delta = 100022 elapsed time = 00:34:13
+[STOPBYICOUNT] Periodic at 109000003 delta = 99979 elapsed time = 00:34:14
+[STOPBYICOUNT] Periodic at 109100013 delta = 100010 elapsed time = 00:34:15
+[STOPBYICOUNT] Periodic at 109200001 delta = 99988 elapsed time = 00:34:16
+[STOPBYICOUNT] Periodic at 109300003 delta = 100002 elapsed time = 00:34:17
+[STOPBYICOUNT] Periodic at 109400001 delta = 99998 elapsed time = 00:34:18
+[STOPBYICOUNT] Periodic at 109500002 delta = 100001 elapsed time = 00:36:19
+[STOPBYICOUNT] Periodic at 109600008 delta = 100006 elapsed time = 00:36:22
+[STOPBYICOUNT] Periodic at 109700002 delta = 99994 elapsed time = 00:36:24
+[STOPBYICOUNT] Periodic at 109800002 delta = 100000 elapsed time = 00:36:27
+[STOPBYICOUNT] Periodic at 109900001 delta = 99999 elapsed time = 00:36:30
+[STOPBYICOUNT] Periodic at 110000005 delta = 100004 elapsed time = 00:36:32
+[STOPBYICOUNT] Periodic at 110100004 delta = 99999 elapsed time = 00:36:34
+[STOPBYICOUNT] Periodic at 110200001 delta = 99997 elapsed time = 00:36:36
+[STOPBYICOUNT] Periodic at 110300002 delta = 100001 elapsed time = 00:36:37
+[STOPBYICOUNT] Periodic at 110400013 delta = 100011 elapsed time = 00:36:38
+[STOPBYICOUNT] Periodic at 110500005 delta = 99992 elapsed time = 00:36:41
+[STOPBYICOUNT] Periodic at 110600002 delta = 99997 elapsed time = 00:36:44
+[STOPBYICOUNT] Periodic at 110700015 delta = 100013 elapsed time = 00:36:47
+[STOPBYICOUNT] Periodic at 110800007 delta = 99992 elapsed time = 00:36:49
+[STOPBYICOUNT] Periodic at 110900004 delta = 99997 elapsed time = 00:36:52
+[STOPBYICOUNT] Periodic at 111000001 delta = 99997 elapsed time = 00:36:55
+[STOPBYICOUNT] Periodic at 111100005 delta = 100004 elapsed time = 00:36:57
+[STOPBYICOUNT] Periodic at 111200001 delta = 99996 elapsed time = 00:37:00
+[STOPBYICOUNT] Periodic at 111300002 delta = 100001 elapsed time = 00:37:02
+[STOPBYICOUNT] Periodic at 111400002 delta = 100000 elapsed time = 00:37:03
+[STOPBYICOUNT] Periodic at 111500005 delta = 100003 elapsed time = 00:37:04
+[STOPBYICOUNT] Periodic at 111600003 delta = 99998 elapsed time = 00:37:05
+[STOPBYICOUNT] Periodic at 111700003 delta = 100000 elapsed time = 00:37:06
+[STOPBYICOUNT] Periodic at 111800004 delta = 100001 elapsed time = 00:37:06
+[STOPBYICOUNT] Periodic at 111900005 delta = 100001 elapsed time = 00:37:09
+[STOPBYICOUNT] Periodic at 112000003 delta = 99998 elapsed time = 00:37:11
+[STOPBYICOUNT] Periodic at 112100003 delta = 100000 elapsed time = 00:37:14
+[STOPBYICOUNT] Periodic at 112200004 delta = 100001 elapsed time = 00:37:16
+[STOPBYICOUNT] Periodic at 112300004 delta = 100000 elapsed time = 00:37:18
+[STOPBYICOUNT] Periodic at 112400007 delta = 100003 elapsed time = 00:37:20
+[STOPBYICOUNT] Periodic at 112500006 delta = 99999 elapsed time = 00:37:22
+[STOPBYICOUNT] Periodic at 112600003 delta = 99997 elapsed time = 00:37:23
+[STOPBYICOUNT] Periodic at 112700002 delta = 99999 elapsed time = 00:37:24
+[STOPBYICOUNT] Periodic at 112800002 delta = 100000 elapsed time = 00:37:26
+[STOPBYICOUNT] Periodic at 112900007 delta = 100005 elapsed time = 00:37:29
+[STOPBYICOUNT] Periodic at 113000018 delta = 100011 elapsed time = 00:37:31
+[STOPBYICOUNT] Periodic at 113100010 delta = 99992 elapsed time = 00:37:33
+[STOPBYICOUNT] Periodic at 113200003 delta = 99993 elapsed time = 00:37:36
+[STOPBYICOUNT] Periodic at 113300020 delta = 100017 elapsed time = 00:37:38
+[STOPBYICOUNT] Periodic at 113400001 delta = 99981 elapsed time = 00:37:41
+[STOPBYICOUNT] Periodic at 113500009 delta = 100008 elapsed time = 00:37:45
+[STOPBYICOUNT] Periodic at 113600006 delta = 99997 elapsed time = 00:37:48
+[STOPBYICOUNT] Periodic at 113700017 delta = 100011 elapsed time = 00:37:50
+[STOPBYICOUNT] Periodic at 113800001 delta = 99984 elapsed time = 00:37:52
+[STOPBYICOUNT] Periodic at 113900004 delta = 100003 elapsed time = 00:37:53
+[STOPBYICOUNT] Periodic at 114000004 delta = 100000 elapsed time = 00:37:54
+[STOPBYICOUNT] Periodic at 114100002 delta = 99998 elapsed time = 00:37:55
+[STOPBYICOUNT] Periodic at 114200002 delta = 100000 elapsed time = 00:37:56
+[STOPBYICOUNT] Periodic at 114300008 delta = 100006 elapsed time = 00:37:59
+[STOPBYICOUNT] Periodic at 114400001 delta = 99993 elapsed time = 00:38:02
+[STOPBYICOUNT] Periodic at 114500002 delta = 100001 elapsed time = 00:38:06
+[STOPBYICOUNT] Periodic at 114600001 delta = 99999 elapsed time = 00:38:07
+[STOPBYICOUNT] Periodic at 114700004 delta = 100003 elapsed time = 00:38:08
+[STOPBYICOUNT] Periodic at 114800009 delta = 100005 elapsed time = 00:38:10
+[STOPBYICOUNT] Periodic at 114900001 delta = 99992 elapsed time = 00:38:11
+[STOPBYICOUNT] Periodic at 115000003 delta = 100002 elapsed time = 00:38:12
+[STOPBYICOUNT] Periodic at 115100011 delta = 100008 elapsed time = 00:38:14
+[STOPBYICOUNT] Periodic at 115200003 delta = 99992 elapsed time = 00:38:16
+[STOPBYICOUNT] Periodic at 115300003 delta = 100000 elapsed time = 00:38:18
+[STOPBYICOUNT] Periodic at 115400003 delta = 100000 elapsed time = 00:38:20
+[STOPBYICOUNT] Periodic at 115500001 delta = 99998 elapsed time = 00:38:24
+[STOPBYICOUNT] Periodic at 115600002 delta = 100001 elapsed time = 00:38:27
+[STOPBYICOUNT] Periodic at 115700001 delta = 99999 elapsed time = 00:38:29
+[STOPBYICOUNT] Periodic at 115800001 delta = 100000 elapsed time = 00:38:31
+[STOPBYICOUNT] Periodic at 115900001 delta = 100000 elapsed time = 00:38:34
+[STOPBYICOUNT] Periodic at 116000004 delta = 100003 elapsed time = 00:38:39
+[STOPBYICOUNT] Periodic at 116100005 delta = 100001 elapsed time = 00:39:17
+[STOPBYICOUNT] Periodic at 116200002 delta = 99997 elapsed time = 00:39:18
+[STOPBYICOUNT] Periodic at 116300007 delta = 100005 elapsed time = 00:39:19
+[STOPBYICOUNT] Periodic at 116400018 delta = 100011 elapsed time = 00:39:21
+[STOPBYICOUNT] Periodic at 116500010 delta = 99992 elapsed time = 00:39:23
+[STOPBYICOUNT] Periodic at 116600003 delta = 99993 elapsed time = 00:39:25
+[STOPBYICOUNT] Periodic at 116700020 delta = 100017 elapsed time = 00:39:27
+[STOPBYICOUNT] Periodic at 116800001 delta = 99981 elapsed time = 00:39:29
+[STOPBYICOUNT] Periodic at 116900009 delta = 100008 elapsed time = 00:39:30
+[STOPBYICOUNT] Periodic at 117000006 delta = 99997 elapsed time = 00:39:32
+[STOPBYICOUNT] Periodic at 117100002 delta = 99996 elapsed time = 00:39:35
+[STOPBYICOUNT] Periodic at 117200001 delta = 99999 elapsed time = 00:39:38
+[STOPBYICOUNT] Periodic at 117300004 delta = 100003 elapsed time = 00:39:41
+[STOPBYICOUNT] Periodic at 117400004 delta = 100000 elapsed time = 00:39:43
+[STOPBYICOUNT] Periodic at 117500002 delta = 99998 elapsed time = 00:39:45
+[STOPBYICOUNT] Periodic at 117600002 delta = 100000 elapsed time = 00:39:46
+[STOPBYICOUNT] Periodic at 117700008 delta = 100006 elapsed time = 00:39:48
+[STOPBYICOUNT] Periodic at 117800001 delta = 99993 elapsed time = 00:39:50
+[STOPBYICOUNT] Periodic at 117900002 delta = 100001 elapsed time = 00:40:13
+[STOPBYICOUNT] Periodic at 118000001 delta = 99999 elapsed time = 00:40:16
+[STOPBYICOUNT] Periodic at 118100004 delta = 100003 elapsed time = 00:40:17
+[STOPBYICOUNT] Periodic at 118200009 delta = 100005 elapsed time = 00:40:18
+[STOPBYICOUNT] Periodic at 118300001 delta = 99992 elapsed time = 00:40:19
+[STOPBYICOUNT] Periodic at 118400003 delta = 100002 elapsed time = 00:40:21
+[STOPBYICOUNT] Periodic at 118500011 delta = 100008 elapsed time = 00:40:24
+[STOPBYICOUNT] Periodic at 118600003 delta = 99992 elapsed time = 00:40:26
+[STOPBYICOUNT] Periodic at 118700003 delta = 100000 elapsed time = 00:40:26
+[STOPBYICOUNT] Periodic at 118800003 delta = 100000 elapsed time = 00:40:29
+[STOPBYICOUNT] Periodic at 118900001 delta = 99998 elapsed time = 00:40:32
+[STOPBYICOUNT] Periodic at 119000002 delta = 100001 elapsed time = 00:40:33
+[STOPBYICOUNT] Periodic at 119100001 delta = 99999 elapsed time = 00:40:37
+[STOPBYICOUNT] Periodic at 119200001 delta = 100000 elapsed time = 00:40:40
+[STOPBYICOUNT] Periodic at 119300001 delta = 100000 elapsed time = 00:40:44
+[STOPBYICOUNT] Periodic at 119400004 delta = 100003 elapsed time = 00:40:47
+[STOPBYICOUNT] Periodic at 119500001 delta = 99997 elapsed time = 00:40:50
+[STOPBYICOUNT] Periodic at 119600002 delta = 100001 elapsed time = 00:40:52
+[STOPBYICOUNT] Periodic at 119700001 delta = 99999 elapsed time = 00:40:55
+[STOPBYICOUNT] Periodic at 119800002 delta = 100001 elapsed time = 00:40:57
+[STOPBYICOUNT] Periodic at 119900003 delta = 100001 elapsed time = 00:40:58
+[STOPBYICOUNT] Periodic at 120000009 delta = 100006 elapsed time = 00:41:01
+[STOPBYICOUNT] Periodic at 120100003 delta = 99994 elapsed time = 00:41:03
+[STOPBYICOUNT] Periodic at 120200003 delta = 100000 elapsed time = 00:41:05
+[STOPBYICOUNT] Periodic at 120300002 delta = 99999 elapsed time = 00:41:08
+[STOPBYICOUNT] Periodic at 120400006 delta = 100004 elapsed time = 00:41:11
+[STOPBYICOUNT] Periodic at 120500001 delta = 99995 elapsed time = 00:41:14
+[STOPBYICOUNT] Periodic at 120600006 delta = 100005 elapsed time = 00:41:18
+[STOPBYICOUNT] Periodic at 120700003 delta = 99997 elapsed time = 00:41:20
+[STOPBYICOUNT] Periodic at 120800014 delta = 100011 elapsed time = 00:41:20
+[STOPBYICOUNT] Periodic at 120900006 delta = 99992 elapsed time = 00:41:22
+[STOPBYICOUNT] Periodic at 121000001 delta = 99995 elapsed time = 00:41:24
+[STOPBYICOUNT] Periodic at 121100016 delta = 100015 elapsed time = 00:41:26
+[STOPBYICOUNT] Periodic at 121200008 delta = 99992 elapsed time = 00:41:29
+[STOPBYICOUNT] Periodic at 121300005 delta = 99997 elapsed time = 00:44:13
+[STOPBYICOUNT] Periodic at 121400002 delta = 99997 elapsed time = 00:44:16
+[STOPBYICOUNT] Periodic at 121500006 delta = 100004 elapsed time = 00:44:18
+[STOPBYICOUNT] Periodic at 121600002 delta = 99996 elapsed time = 00:44:20
+[STOPBYICOUNT] Periodic at 121700003 delta = 100001 elapsed time = 00:44:23
+[STOPBYICOUNT] Periodic at 121800003 delta = 100000 elapsed time = 00:44:27
+[STOPBYICOUNT] Periodic at 121900001 delta = 99998 elapsed time = 00:44:31
+[STOPBYICOUNT] Periodic at 122000004 delta = 100003 elapsed time = 00:44:34
+[STOPBYICOUNT] Periodic at 122100004 delta = 100000 elapsed time = 00:44:36
+[STOPBYICOUNT] Periodic at 122200005 delta = 100001 elapsed time = 00:44:39
+[STOPBYICOUNT] Periodic at 122300001 delta = 99996 elapsed time = 00:44:42
+[STOPBYICOUNT] Periodic at 122400004 delta = 100003 elapsed time = 00:44:45
+[STOPBYICOUNT] Periodic at 122500004 delta = 100000 elapsed time = 00:44:47
+[STOPBYICOUNT] Periodic at 122600005 delta = 100001 elapsed time = 00:44:48
+[STOPBYICOUNT] Periodic at 122700001 delta = 99996 elapsed time = 00:44:50
+[STOPBYICOUNT] Periodic at 122800008 delta = 100007 elapsed time = 00:44:55
+[STOPBYICOUNT] Periodic at 122900007 delta = 99999 elapsed time = 00:44:59
+[STOPBYICOUNT] Periodic at 123000004 delta = 99997 elapsed time = 00:45:03
+[STOPBYICOUNT] Periodic at 123100003 delta = 99999 elapsed time = 00:45:07
+[STOPBYICOUNT] Periodic at 123200003 delta = 100000 elapsed time = 00:45:10
+[STOPBYICOUNT] Periodic at 123300008 delta = 100005 elapsed time = 00:45:12
+[STOPBYICOUNT] Periodic at 123400001 delta = 99993 elapsed time = 00:45:12
+[STOPBYICOUNT] Periodic at 123500011 delta = 100010 elapsed time = 00:45:15
+[STOPBYICOUNT] Periodic at 123600004 delta = 99993 elapsed time = 00:45:17
+[STOPBYICOUNT] Periodic at 123700021 delta = 100017 elapsed time = 00:45:20
+[STOPBYICOUNT] Periodic at 123800002 delta = 99981 elapsed time = 00:45:22
+[STOPBYICOUNT] Periodic at 123900010 delta = 100008 elapsed time = 00:45:25
+[STOPBYICOUNT] Periodic at 124000007 delta = 99997 elapsed time = 00:45:27
+[STOPBYICOUNT] Periodic at 124100001 delta = 99994 elapsed time = 00:45:29
+[STOPBYICOUNT] Periodic at 124200008 delta = 100007 elapsed time = 00:45:33
+[STOPBYICOUNT] Periodic at 124300005 delta = 99997 elapsed time = 00:45:37
+[STOPBYICOUNT] Periodic at 124400016 delta = 100011 elapsed time = 00:45:39
+[STOPBYICOUNT] Periodic at 124500008 delta = 99992 elapsed time = 00:45:41
+[STOPBYICOUNT] Periodic at 124600001 delta = 99993 elapsed time = 00:45:44
+[STOPBYICOUNT] Periodic at 124700018 delta = 100017 elapsed time = 00:45:46
+[STOPBYICOUNT] Periodic at 124800010 delta = 99992 elapsed time = 00:45:48
+[STOPBYICOUNT] Periodic at 124900007 delta = 99997 elapsed time = 00:45:50
+[STOPBYICOUNT] Periodic at 125000007 delta = 100000 elapsed time = 00:45:51
+[STOPBYICOUNT] Periodic at 125100001 delta = 99994 elapsed time = 00:45:52
+[STOPBYICOUNT] Periodic at 125200001 delta = 100000 elapsed time = 00:45:53
+[STOPBYICOUNT] Periodic at 125300002 delta = 100001 elapsed time = 00:45:56
+[STOPBYICOUNT] Periodic at 125400002 delta = 100000 elapsed time = 00:45:56
+[STOPBYICOUNT] Periodic at 125500003 delta = 100001 elapsed time = 00:45:58
+[STOPBYICOUNT] Periodic at 125600006 delta = 100003 elapsed time = 00:46:01
+[STOPBYICOUNT] Periodic at 125700006 delta = 100000 elapsed time = 00:46:05
+[STOPBYICOUNT] Periodic at 125800007 delta = 100001 elapsed time = 00:46:07
+[STOPBYICOUNT] Periodic at 125900002 delta = 99995 elapsed time = 00:46:10
+[STOPBYICOUNT] Periodic at 126000002 delta = 100000 elapsed time = 00:46:12
+[STOPBYICOUNT] Periodic at 126100002 delta = 100000 elapsed time = 00:46:15
+[STOPBYICOUNT] Periodic at 126200007 delta = 100005 elapsed time = 00:46:17
+[STOPBYICOUNT] Periodic at 126300003 delta = 99996 elapsed time = 00:46:19
+[STOPBYICOUNT] Periodic at 126400001 delta = 99998 elapsed time = 00:46:20
+[STOPBYICOUNT] Periodic at 126500009 delta = 100008 elapsed time = 00:46:22
+[STOPBYICOUNT] Periodic at 126600001 delta = 99992 elapsed time = 00:46:26
+[STOPBYICOUNT] Periodic at 126700001 delta = 100000 elapsed time = 00:46:28
+[STOPBYICOUNT] Periodic at 126800013 delta = 100012 elapsed time = 00:46:30
+[STOPBYICOUNT] Periodic at 126900001 delta = 99988 elapsed time = 00:46:32
+[STOPBYICOUNT] Periodic at 127000003 delta = 100002 elapsed time = 00:46:35
+[STOPBYICOUNT] Periodic at 127100001 delta = 99998 elapsed time = 00:46:42
+[STOPBYICOUNT] Periodic at 127200001 delta = 100000 elapsed time = 00:49:25
+[STOPBYICOUNT] Periodic at 127300023 delta = 100022 elapsed time = 00:49:27
+[STOPBYICOUNT] Periodic at 127400002 delta = 99979 elapsed time = 00:49:30
+[STOPBYICOUNT] Periodic at 127500012 delta = 100010 elapsed time = 00:49:32
+[STOPBYICOUNT] Periodic at 127600001 delta = 99989 elapsed time = 00:49:34
+[STOPBYICOUNT] Periodic at 127700005 delta = 100004 elapsed time = 00:49:37
+[STOPBYICOUNT] Periodic at 127800004 delta = 99999 elapsed time = 00:49:39
+[STOPBYICOUNT] Periodic at 127900001 delta = 99997 elapsed time = 00:49:40
+[STOPBYICOUNT] Periodic at 128000007 delta = 100006 elapsed time = 00:49:41
+[STOPBYICOUNT] Periodic at 128100001 delta = 99994 elapsed time = 00:49:42
+[STOPBYICOUNT] Periodic at 128200001 delta = 100000 elapsed time = 00:49:45
+[STOPBYICOUNT] Periodic at 128300011 delta = 100010 elapsed time = 00:49:47
+[STOPBYICOUNT] Periodic at 128400004 delta = 99993 elapsed time = 00:49:48
+[STOPBYICOUNT] Periodic at 128500007 delta = 100003 elapsed time = 00:49:50
+[STOPBYICOUNT] Periodic at 128600004 delta = 99997 elapsed time = 00:49:53
+[STOPBYICOUNT] Periodic at 128700001 delta = 99997 elapsed time = 00:49:54
+[STOPBYICOUNT] Periodic at 128800012 delta = 100011 elapsed time = 00:49:56
+43005 9
+inside nested try
+inside try
+0
+[SNIPER] End
+[SNIPER] Elapsed time: 3058.21 seconds
+[SNIPER] Running dumpstats
+Traceback (most recent call last):
+File "/root/codes/Victima/sniper/tools/dumpstats.py", line 172, in <module>
+results = sniper_lib.get_results(jobid, resultsdir, partial = partial)
+File "/root/codes/Victima/sniper/tools/sniper_lib.py", line 47, in get_results
+results = parse_results_from_dir(resultsdir, partial = partial, metrics = metrics)
+File "/root/codes/Victima/sniper/tools/sniper_lib.py", line 179, in parse_results_from_dir
+results += stats.parse_stats((k1, k2), ncores, metrics = metrics)
+File "/root/codes/Victima/sniper/tools/sniper_stats.py", line 8, in parse_stats
+v2 = self.read_snapshot(k2, metrics = metrics)
+File "/root/codes/Victima/sniper/tools/sniper_stats_sqlite.py", line 44, in read_snapshot
+raise ValueError('Invalid prefix %s' % prefix)
+ValueError: Invalid prefix roi-end
